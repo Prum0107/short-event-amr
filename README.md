@@ -48,7 +48,6 @@ Completed diagnostic pilots and specified counterfactuals are kept with their co
 
 [Boundary Quality Calibration](https://github.com/Prum0107/Boundary-Quality-Calibration-for-Audio-Moment-Retrieval) studies the downstream selection question: when a usable candidate already exists, can its score reflect temporal boundary quality? Short-Event AMR studies the upstream availability, localization, and temporal-scale question: why is a usable candidate missing or poorly scaled? Neither project subsumes the other.
 
-
 ## Current status
 
 - The official QD-DETR baseline has been audited in an inference-only
