@@ -10,6 +10,11 @@
   registered checkpoint and frozen full-audio coordinates. The result supports
   a high-saliency distractor effect but not a general global-search or
   monotonic dose-response explanation.
+- GT-vs-hard-negative mechanism audit: completed as an inference-only follow-up
+  over the predeclared harmful/control cohorts. Decoder-reference attraction is
+  supported, near-GT geometry is partial, native semantic competition is not
+  dominant on the covered WAV subset, and annotation ambiguity remains
+  unresolved without human labels.
 
 ## Current gate
 
@@ -29,4 +34,4 @@ After the active gate is reviewed, choose exactly one branch:
 - If evidence is strong only at short context, investigate temporal evidence
   dilution and scale sensitivity.
 
-No next-stage intervention is implemented by the current archive.
+No next-stage intervention or AMR method is implemented by the current archive.

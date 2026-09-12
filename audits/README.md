@@ -15,7 +15,14 @@ global-search and dose-response tests are not supported.
 The preceding `search_space_counterfactual_feasibility` directory records the
 validity/design audit that preceded the run.
 
-The native local MS-CLAP validation requested for the next stage is not
-represented by fabricated output here. Its validation subset, model/API
-provenance, and results will be added only after the exact native shared
-embedding pathway is verified and the 30-query gate is actually run.
+The `hard_negative_mechanism_audit` directory is the completed follow-up. It
+uses frozen harmful/control cohorts, official QD-DETR decoder traces, a bounded
+token-level replacement probe, and native MS-CLAP comparisons where original
+WAVs are available. It supports a decoder-reference-attraction component but
+does not resolve repeated or incompletely annotated occurrences. Missing raw
+audio is recorded as BLOCKED.
+
+The full native local MS-CLAP audit is not represented by fabricated output
+here. The hard-negative bundle contains only the native comparisons supported
+by the raw WAV coverage on the server; it records the exact model/API
+provenance and query-level BLOCKED rows for missing audio.

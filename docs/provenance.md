@@ -38,5 +38,25 @@ execution, 1,347 queries, one-second clip length, random seed `20260912`, and
 CUDA. Its complete compact outputs are under
 [`audits/audio_duration_mechanism_decomposition/`](../audits/audio_duration_mechanism_decomposition/).
 
-The search-space counterfactual audit is a design/validity document only. It
-has `executed: false` and must not be described as an intervention result.
+The coordinate-preserving search-space counterfactual audit is complete. Its
+full-access reproduction passed and its matched HARD_25 condition reduced
+CenterHit relative to RANDOM_25 in the two primary duration bins; the result
+supports a high-saliency distractor effect, not a generic global-search law.
+
+## Hard-negative mechanism audit
+
+- Harmful cohort rule: HARD_25 CenterHit@10≤2s lower than the mean of ten
+  deterministic RANDOM_25 replicates.
+- Cohort sizes: 44 harmful / 46 control in 0–2 s; 127 harmful / 249 control in
+  2–5 s.
+- Native MS-CLAP package: `msclap==1.3.4`, implementation
+  `microsoft/CLAP`, HTSAT/GPT-2 configuration with shared projected dimension
+  1024.
+- Native MS-CLAP checkpoint SHA-256:
+  `2cef4016d47d00eb28d153d522f397222057f95000e9bad6b9583c631284a1e6`
+- The native comparison uses equal-duration raw-audio windows and the official
+  normalized projected-vector dot product multiplied by `logit_scale.exp()`.
+  Missing WAVs are retained as BLOCKED; QD-DETR stored audio/text features are
+  never compared by cosine.
+- Compact outputs are under
+  [`audits/hard_negative_mechanism_audit/`](../audits/hard_negative_mechanism_audit/).

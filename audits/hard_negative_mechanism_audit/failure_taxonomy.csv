@@ -1,0 +1,467 @@
+qid,duration_bin,cohort,p3_location_failure,labels,evidence,native_status,qd_alignment,human_review_status
+--0w1YA1Hm4_1,0-2s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+--0w1YA1Hm4_2,2-5s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+--0w1YA1Hm4_3,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+-FW109cbv0g_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+-FW109cbv0g_3,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+-FW109cbv0g_4,2-5s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+-FW109cbv0g_5,2-5s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+-NrFeH-kBSM_2,0-2s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+-NrFeH-kBSM_4,2-5s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+-mhFGevxLUg_3,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+-nQHwrRLfc0_2,0-2s,harmful,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+-oy0BkpMGAk_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+-oy0BkpMGAk_3,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+096oTVzc5Gs_4,0-2s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+0AsXkZkqelg_1,2-5s,harmful,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+0AsXkZkqelg_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+0_K6OKtoBBU_1,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+0_K6OKtoBBU_3,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+0a9wVat2PWk_2,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+0a9wVat2PWk_3,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+0a9wVat2PWk_4,2-5s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+0fMXnvD38zI_1,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+0yETgW44MZU_2,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+14izd_i3ryE_3,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+1FNJbN-eHY4_1,2-5s,harmful,1,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+1GgEpRZDWN0_1,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+1IoHRTUp86c_3,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+1Og2TJ3bXW0_1,2-5s,control,1,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+1Og2TJ3bXW0_2,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+1Og2TJ3bXW0_4,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+1WTSW96XP6E_2,2-5s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+1slvoNgzBLE_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+1slvoNgzBLE_4,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+1vCYiVvZ7VE_1,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+1vCYiVvZ7VE_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+27HIamF8pKo_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+27HIamF8pKo_3,0-2s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+2JutOgAnqWA_2,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+2KEfkDO6hlA_1,2-5s,control,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_HARD_FAVORED,UNLABELED
+2KR0C5ysO8o_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+2KR0C5ysO8o_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+2RjqBRzmxaM_3,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+2RjqBRzmxaM_4,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+2RjqBRzmxaM_5,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+2a6GNu6uCDE_3,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+3RultJjvTWI_2,0-2s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+3VHpLxtd498_1,0-2s,control,1,SEMANTIC_COMPETITOR,native MS-CLAP hard window scored above matched GT window,VALID,QD_TIE,UNLABELED
+3VHpLxtd498_3,0-2s,harmful,1,MODEL_SPECIFIC_FALSE_POSITIVE,"native GT window scored above hard, while QD final center evidence favored hard",VALID,QD_HARD_FAVORED,UNLABELED
+3VHpLxtd498_4,2-5s,harmful,0,SEMANTIC_COMPETITOR,native MS-CLAP hard window scored above matched GT window,VALID,QD_TIE,UNLABELED
+3qTL7QRk-tg_4,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+3rna9zo5ZOs_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+3xDZ-kdGE3o_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+473wBEwC35M_1,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+4CAMv5nlr-0_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_HARD_FAVORED,UNLABELED
+4CAMv5nlr-0_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+4IeDBwyQ9ZQ_4,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+4UPOUGVMlEs_3,2-5s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+4_DjmCg8Ra8_1,0-2s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+4ftDFi4684Y_1,2-5s,control,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_TIE,UNLABELED
+4fz0-Kx2oNs_1,2-5s,control,1,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+4fz0-Kx2oNs_3,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+52IxrdTxGs4_2,0-2s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+52IxrdTxGs4_3,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+52IxrdTxGs4_4,0-2s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+5G6b_QWL3nY_3,2-5s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,VALID,QD_GT_FAVORED,UNLABELED
+5G6b_QWL3nY_4,2-5s,control,1,SEMANTIC_COMPETITOR;DECODER_ATTRACTION,native MS-CLAP hard window scored above matched GT window; full-access top-1 decoder reference moved closer to hard peak,VALID,QD_TIE,UNLABELED
+5t6tSW0yT40_4,0-2s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+67BsqRkh-dU_2,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+6Nvu6EcpdE8_2,0-2s,harmful,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,VALID,QD_GT_FAVORED,UNLABELED
+6Nvu6EcpdE8_3,0-2s,harmful,1,MODEL_SPECIFIC_FALSE_POSITIVE,"native GT window scored above hard, while QD final center evidence favored hard",VALID,QD_HARD_FAVORED,UNLABELED
+6OlHuvJR_Dk_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+6ZwYgzcN6Is_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+6pssFJ0m-kU_3,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+7JWHbs3gu1w_1,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,VALID,QD_TIE,UNLABELED
+7JWHbs3gu1w_2,2-5s,control,0,MODEL_SPECIFIC_FALSE_POSITIVE;DECODER_ATTRACTION,"native GT window scored above hard, while QD final center evidence favored hard; full-access top-1 decoder reference moved closer to hard peak",VALID,QD_HARD_FAVORED,UNLABELED
+7P0N61TVOxE_3,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+7P6lcyeDKNI_1,2-5s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+7XXSOzDQ2z0_2,2-5s,control,1,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+7XXSOzDQ2z0_3,2-5s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+7bO0AJI-ihs_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+7bO0AJI-ihs_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+7upINC4seBw_1,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+83j4GgHXTLE_1,2-5s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+8OTd45_6cvY_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+8OTd45_6cvY_4,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+8b9z7N25DmU_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+8o-Y4QP8LWs_2,2-5s,harmful,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_TIE,UNLABELED
+8ycflE3dIHw_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+9F3sutgYTvo_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+9F3sutgYTvo_2,2-5s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+9dLLsZVRSZI_1,0-2s,harmful,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,VALID,QD_TIE,UNLABELED
+9ucb5HYO8ps_2,2-5s,harmful,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+9vZDsGjyh5M_1,2-5s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+9z2OwpftxUE_2,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+A61Mry8zBwE_1,0-2s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+AI1OweEW8C0_1,2-5s,control,1,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+AI1OweEW8C0_2,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+AKHZMg9ba30_2,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+Aj_VMUSNjNM_2,0-2s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+AtkD-3GjXMw_1,2-5s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+Axd__X2rixk_1,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+BA-lFjpzad4_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE;SEMANTIC_COMPETITOR,strong hard peak is adjacent/moderately near or overlaps GT±2s; native MS-CLAP hard window scored above matched GT window,VALID,QD_GT_FAVORED,UNLABELED
+BA-lFjpzad4_2,0-2s,harmful,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,VALID,QD_GT_FAVORED,UNLABELED
+BA-lFjpzad4_3,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE;MODEL_SPECIFIC_FALSE_POSITIVE,"strong hard peak is adjacent/moderately near or overlaps GT±2s; native GT window scored above hard, while QD final center evidence favored hard",VALID,QD_HARD_FAVORED,UNLABELED
+BA-lFjpzad4_4,2-5s,control,0,MODEL_SPECIFIC_FALSE_POSITIVE;DECODER_ATTRACTION,"native GT window scored above hard, while QD final center evidence favored hard; full-access top-1 decoder reference moved closer to hard peak",VALID,QD_HARD_FAVORED,UNLABELED
+BDpU2Qh77NE_1,0-2s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,VALID,QD_TIE,UNLABELED
+BDpU2Qh77NE_3,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,VALID,QD_GT_FAVORED,UNLABELED
+BL8ksJ0sTXk_3,0-2s,harmful,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_HARD_FAVORED,UNLABELED
+BMayJId0X1s_1,2-5s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+BUAPM4D3-h8_2,0-2s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+Ba92IrXFvJo_1,2-5s,control,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_TIE,UNLABELED
+Bvw2gv1fcZw_2,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+BzHTqyX69pI_2,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+C5kmOK_l4jc_1,0-2s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+C8kR19NvynA_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+CO6-i8NLbeo_1,2-5s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+CO6-i8NLbeo_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+Cbe2B6ohBpw_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_TIE,UNLABELED
+Cbe2B6ohBpw_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+CefFMA3klxk_1,0-2s,harmful,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_HARD_FAVORED,UNLABELED
+CefFMA3klxk_3,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+CvNAwby6Xos_1,2-5s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+D2Xc_jZllDY_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+Dc2WEiRk0rA_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,VALID,QD_GT_FAVORED,UNLABELED
+DjKGzOe_COc_1,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+Dn3buZWMzwY_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE;MODEL_SPECIFIC_FALSE_POSITIVE;DECODER_ATTRACTION,"strong hard peak is adjacent/moderately near or overlaps GT±2s; native GT window scored above hard, while QD final center evidence favored hard; full-access top-1 decoder reference moved closer to hard peak",VALID,QD_HARD_FAVORED,UNLABELED
+Dn3buZWMzwY_2,0-2s,control,0,UNRESOLVED,no independently supported mechanism label,VALID,QD_GT_FAVORED,UNLABELED
+Dn3buZWMzwY_3,0-2s,control,0,NEAR_GT_SCALE_LEAKAGE;SEMANTIC_COMPETITOR,strong hard peak is adjacent/moderately near or overlaps GT±2s; native MS-CLAP hard window scored above matched GT window,VALID,QD_TIE,UNLABELED
+Dn3buZWMzwY_4,2-5s,harmful,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,VALID,QD_GT_FAVORED,UNLABELED
+E3D_z0aoUEg_4,2-5s,harmful,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+E3Q1jfTeuWs_1,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+E3Q1jfTeuWs_2,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+ECw5Yf7QoMo_3,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+ESjMIqrvRj4_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+ESjMIqrvRj4_5,0-2s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+EUZaxaWqhwg_1,2-5s,control,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_HARD_FAVORED,UNLABELED
+EcihYbSlyck_3,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+ErxgH5g3Kx0_1,0-2s,control,1,MODEL_SPECIFIC_FALSE_POSITIVE;DECODER_ATTRACTION,"native GT window scored above hard, while QD final center evidence favored hard; full-access top-1 decoder reference moved closer to hard peak",VALID,QD_HARD_FAVORED,UNLABELED
+ErxgH5g3Kx0_2,2-5s,harmful,0,MODEL_SPECIFIC_FALSE_POSITIVE,"native GT window scored above hard, while QD final center evidence favored hard",VALID,QD_HARD_FAVORED,UNLABELED
+EzWEO2WD_MM_1,2-5s,control,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_TIE,UNLABELED
+EzWEO2WD_MM_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+FDwK7T1JO_0_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+FR7BDRhMATo_2,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+FXdoNvmrYxo_2,2-5s,harmful,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+Flk-X0gwjF4_1,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+G3YO2unWz7k_1,0-2s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+GGgQR7aIofY_1,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,VALID,QD_GT_FAVORED,UNLABELED
+GGgQR7aIofY_3,2-5s,harmful,1,MODEL_SPECIFIC_FALSE_POSITIVE,"native GT window scored above hard, while QD final center evidence favored hard",VALID,QD_HARD_FAVORED,UNLABELED
+GOD8Bt5LfDE_2,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+GOD8Bt5LfDE_3,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+Gkb4f6yodPE_2,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+H7-orYrKBeo_1,2-5s,control,1,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+H7rd9bZtbgc_1,2-5s,control,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,VALID,QD_TIE,UNLABELED
+H7rd9bZtbgc_2,0-2s,control,1,UNRESOLVED,no independently supported mechanism label,VALID,QD_TIE,UNLABELED
+HVz-FJBf_iM_1,0-2s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,VALID,QD_GT_FAVORED,UNLABELED
+HdPSebdDxe4_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+HdPSebdDxe4_4,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+Hdxfbpnd2-8_3,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+Hdxfbpnd2-8_4,0-2s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+HxZADVzNIqs_2,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+HxZADVzNIqs_3,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+I4HpYGMMsz4_1,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+IJ6pm5Kns8A_1,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+IJ6pm5Kns8A_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+IsUG5SKWNZA_2,2-5s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+ItS07xtdi4s_3,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+ItS07xtdi4s_5,0-2s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+JC2ZrXzCX4Y_2,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+JZloTOdIY_c_3,2-5s,harmful,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_HARD_FAVORED,UNLABELED
+JmWaRt8-u0s_1,2-5s,harmful,1,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+K-7Y8yhcUiw_3,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+K03ydb1uaoQ_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+KJhGuhNHToA_1,2-5s,control,1,MODEL_SPECIFIC_FALSE_POSITIVE;DECODER_ATTRACTION,"native GT window scored above hard, while QD final center evidence favored hard; full-access top-1 decoder reference moved closer to hard peak",VALID,QD_HARD_FAVORED,UNLABELED
+KJhGuhNHToA_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,VALID,QD_GT_FAVORED,UNLABELED
+KJhGuhNHToA_4,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,VALID,QD_GT_FAVORED,UNLABELED
+K_Vre_-4KqU_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+Kel-hfZ_9h8_4,0-2s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+KnsKf9KoNds_1,0-2s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+KnsKf9KoNds_2,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+KvrcRMfFzOE_1,2-5s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+LB6CZ0x-kns_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+LCwSUVuTyvg_2,2-5s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+LP_DzNUkAKY_1,0-2s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+LP_DzNUkAKY_2,2-5s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+LVvS3s9dFKw_2,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+LVvS3s9dFKw_3,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+LvMA1Wcgu3w_1,2-5s,harmful,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+MBP4RcnwGZw_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+MPLZUg89y5U_2,0-2s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+MVGhC-xB79s_2,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+MdlEswBfZMQ_2,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+MkbP_8zJwXU_2,2-5s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+MvHpNzDpC6Q_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+N_s9F4CI_98_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+NeWW30WZjPc_1,0-2s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+Ni3dIj90Oa4_2,2-5s,harmful,1,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+NlKlRKz8OKI_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+NlKlRKz8OKI_2,2-5s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+OMGHnJV0l2U_1,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+OUUckswAaNI_4,0-2s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+ObWjGBJF_94_1,2-5s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+OpiWMltpj44_1,2-5s,harmful,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_HARD_FAVORED,UNLABELED
+OpiWMltpj44_3,0-2s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_HARD_FAVORED,UNLABELED
+OpiWMltpj44_4,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+Ot0bN_hz2ec_3,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_TIE,UNLABELED
+PO8Nu3F8mkA_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE;SEMANTIC_COMPETITOR,strong hard peak is adjacent/moderately near or overlaps GT±2s; native MS-CLAP hard window scored above matched GT window,VALID,QD_GT_FAVORED,UNLABELED
+PTyFYxXdut4_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_TIE,UNLABELED
+PYP-r0nvbFk_2,0-2s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+PYP-r0nvbFk_3,0-2s,harmful,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+Pb6MqpdX5Jw_4,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+Pb6MqpdX5Jw_5,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+QHfyKaOHSz4_2,2-5s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+QKHpSAAjakY_1,0-2s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+QKHpSAAjakY_3,2-5s,harmful,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+QOmV7O9mFwg_1,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+QOmV7O9mFwg_2,2-5s,harmful,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_HARD_FAVORED,UNLABELED
+QOmV7O9mFwg_3,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+QRtuOWWya30_1,2-5s,harmful,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+QvATUKXYFBs_2,2-5s,harmful,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_HARD_FAVORED,UNLABELED
+QvATUKXYFBs_4,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+R4fXcbWFhJg_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+R4fXcbWFhJg_2,2-5s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+RNBoH2LHQEM_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+RfGapDlAYoQ_1,2-5s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+RfGapDlAYoQ_2,0-2s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+RfGapDlAYoQ_3,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+Rp4Ct_TQvAM_2,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+RrmBGjJqlEo_1,2-5s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+S0SQyFXbqF8_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_HARD_FAVORED,UNLABELED
+SQHYl2Kp5ww_2,2-5s,control,1,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+T32kii824pA_2,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+T9_ep-3BZDY_1,0-2s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+T9_ep-3BZDY_2,0-2s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+Tgxst7Ft9js_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+TtRtURWVYBE_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+U3CAjsm1sec_1,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+U5ij0M7T-hk_1,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+U90e2P9jy30_1,2-5s,harmful,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+U90e2P9jy30_2,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+UAmDLPjNyMg_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+UE3XnVFodMI_1,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+UQtBt6CQpwg_1,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+UXGzbBGbqAA_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+V4PLSw_WzVw_1,2-5s,harmful,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+V4PLSw_WzVw_2,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+V8A0VRGdgwM_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+V8A0VRGdgwM_2,2-5s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+VE6Ku0-ucUM_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+VE6Ku0-ucUM_2,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+VE6Ku0-ucUM_3,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+VZLZ08k3YeA_1,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+VZLZ08k3YeA_3,0-2s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+VZLZ08k3YeA_4,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+VjSEIRnLAh8_2,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+VjSEIRnLAh8_4,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+WCYfCfW9NA0_4,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+WUpeplQr3A4_1,2-5s,harmful,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+WUyeFOyKIg0_1,2-5s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+WUyeFOyKIg0_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+Wq4OD3olO2w_1,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+WqXFAY4k79s_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+XZTt1xdK8uQ_1,0-2s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+YflmW68gL4E_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+Z1Cyj4N05lk_3,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+Z3wDry8nnJs_1,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+Z3wDry8nnJs_3,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+ZBtgrP4vU_w_2,2-5s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+ZTYAQBnU4GM_1,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+ZUmZgPL0ges_3,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+Z_smJ66Tb3c_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+Z_smJ66Tb3c_3,0-2s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+Zsf2YvJfCKw_1,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+_AcJVyToQUQ_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+_BSmz3SEW1w_1,2-5s,control,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_HARD_FAVORED,UNLABELED
+_BSmz3SEW1w_2,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+_C2HinL8VlM_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+_YS5uKWoB6g_2,0-2s,harmful,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_TIE,UNLABELED
+_YS5uKWoB6g_5,0-2s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+_ezm-TpKj1w_1,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+_oKXrY5Ff0g_3,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+aMhu5eMQAsI_3,2-5s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+aZAXO2WZn84_2,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+aZAXO2WZn84_4,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+aZAXO2WZn84_5,0-2s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+ajheseWZmmU_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+b1PXsfgQw5w_1,0-2s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+b1PXsfgQw5w_2,0-2s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+bUTOsLXYyxg_1,2-5s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+bX2vDaHL26U_1,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+bX2vDaHL26U_2,0-2s,control,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+bgbnu5YKTDg_4,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+bpv_LneHmfU_1,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+cPiSd5nJLrI_1,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+cPiSd5nJLrI_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+cz0FSQDVBMw_2,0-2s,harmful,1,SEMANTIC_COMPETITOR;DECODER_ATTRACTION,native MS-CLAP hard window scored above matched GT window; full-access top-1 decoder reference moved closer to hard peak,VALID,QD_HARD_FAVORED,UNLABELED
+d6gu2w19YQo_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+dYvL6uEMl6E_1,0-2s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+dkiwn2FdDVw_2,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+dkiwn2FdDVw_3,0-2s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+dkiwn2FdDVw_4,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+e2rScj9UyMs_2,0-2s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+eRU-rABp8nk_2,2-5s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+eRU-rABp8nk_3,0-2s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+eUecAF626A8_2,2-5s,harmful,1,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+eYbFtxZmKL4_1,2-5s,control,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_TIE,UNLABELED
+elztUCeNQvQ_1,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+elztUCeNQvQ_2,2-5s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+elztUCeNQvQ_5,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+emGPabOePzA_1,2-5s,control,0,SEMANTIC_COMPETITOR,native MS-CLAP hard window scored above matched GT window,VALID,QD_GT_FAVORED,UNLABELED
+eu5bq0A3XVQ_2,2-5s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+eu5bq0A3XVQ_3,2-5s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+fGGYeXR_LS8_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+fK4QBQZ6i7w_1,2-5s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+fPqj3nnwQOI_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+fPqj3nnwQOI_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+fPqj3nnwQOI_3,0-2s,harmful,1,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+fPqj3nnwQOI_4,0-2s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+fWvWhLJ5Fow_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+fWvWhLJ5Fow_3,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+fYTZVxQ8LJk_2,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+fYTZVxQ8LJk_3,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+fmEft49sPfE_2,2-5s,control,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_HARD_FAVORED,UNLABELED
+frOqlk0Wm5Y_1,0-2s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+frOqlk0Wm5Y_3,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+fwhkCnOeyC0_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+fwhkCnOeyC0_3,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+gW7s3YAthpI_1,2-5s,harmful,1,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+gW7s3YAthpI_2,2-5s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+gbi6MxPf3hA_1,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+gbi6MxPf3hA_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+gbi6MxPf3hA_3,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+gbtcDoh0q3c_2,2-5s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+gf6H_MWCqjw_4,2-5s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,VALID,QD_GT_FAVORED,UNLABELED
+gkWd1HugK2w_1,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+glAeihz0NAM_1,2-5s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+gr5Zss89yLQ_1,0-2s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+gr5Zss89yLQ_3,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+gr5Zss89yLQ_4,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+h3UhoHIMfpw_1,2-5s,harmful,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_HARD_FAVORED,UNLABELED
+hDMHIDJdfDA_3,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+hVUmQfBIYe8_1,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+hmd6pa2e_rs_1,0-2s,control,1,NEAR_GT_SCALE_LEAKAGE;SEMANTIC_COMPETITOR;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; native MS-CLAP hard window scored above matched GT window; full-access top-1 decoder reference moved closer to hard peak,VALID,QD_HARD_FAVORED,UNLABELED
+hmd6pa2e_rs_2,2-5s,harmful,1,SEMANTIC_COMPETITOR;DECODER_ATTRACTION,native MS-CLAP hard window scored above matched GT window; full-access top-1 decoder reference moved closer to hard peak,VALID,QD_HARD_FAVORED,UNLABELED
+hmd6pa2e_rs_3,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,VALID,QD_TIE,UNLABELED
+hzn_wGlzGpU_1,2-5s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+hzn_wGlzGpU_2,0-2s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+i6MQCm58zlY_3,2-5s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+iOCpICiu4LA_2,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+ilspW7JRjAg_1,0-2s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+inSvboaSRwA_2,0-2s,harmful,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_HARD_FAVORED,UNLABELED
+jid4t-FzUn0_1,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+jid4t-FzUn0_3,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+jjfUaMQaG1A_2,0-2s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+jlwe9jtu5Gw_1,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+jlwe9jtu5Gw_2,2-5s,harmful,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+jlwe9jtu5Gw_3,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+kHIe4CfaccQ_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+kXjzsroVTtw_1,0-2s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+kdflh3akyH8_1,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+lTfNLKEy1RU_2,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+lVr-PxhZo8s_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+lVr-PxhZo8s_3,0-2s,harmful,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+lgwpIImXCWA_3,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+lh801oHGtD4_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+lh801oHGtD4_3,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+lmPMhs-9IYE_2,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+lrKGCtSsAkA_2,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+lrKGCtSsAkA_3,0-2s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+lrKGCtSsAkA_4,0-2s,control,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+mSF_FqBtRPs_1,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+mWqH2xwjkYA_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+m_U506sf9p4_2,2-5s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+m_U506sf9p4_3,2-5s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+m_U506sf9p4_4,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+n-JyOqYSLQM_2,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+nLtNjMimLE0_1,2-5s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+nU-AI3Cmc3M_1,2-5s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+nlC4UI4hZ60_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,VALID,QD_GT_FAVORED,UNLABELED
+o7-X8DAToGc_1,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,VALID,QD_TIE,UNLABELED
+o7-X8DAToGc_2,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,VALID,QD_TIE,UNLABELED
+oN0IcZaHD_8_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+oNHCc_izsDE_1,0-2s,harmful,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+os_2U4xqTqw_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,VALID,QD_GT_FAVORED,UNLABELED
+os_2U4xqTqw_2,2-5s,control,0,SEMANTIC_COMPETITOR,native MS-CLAP hard window scored above matched GT window,VALID,QD_GT_FAVORED,UNLABELED
+os_2U4xqTqw_3,0-2s,control,0,NEAR_GT_SCALE_LEAKAGE;SEMANTIC_COMPETITOR,strong hard peak is adjacent/moderately near or overlaps GT±2s; native MS-CLAP hard window scored above matched GT window,VALID,QD_GT_FAVORED,UNLABELED
+os_2U4xqTqw_4,2-5s,harmful,0,MODEL_SPECIFIC_FALSE_POSITIVE;DECODER_ATTRACTION,"native GT window scored above hard, while QD final center evidence favored hard; full-access top-1 decoder reference moved closer to hard peak",VALID,QD_HARD_FAVORED,UNLABELED
+p9qRTh4BmSE_1,2-5s,harmful,1,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+p9qRTh4BmSE_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+pCQEWAFGEjc_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+pCQEWAFGEjc_2,2-5s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+pHYkWkZ4guE_3,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+pI_kPedctoo_1,0-2s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_TIE,UNLABELED
+pO8kbg9IJnc_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,VALID,QD_GT_FAVORED,UNLABELED
+pO8kbg9IJnc_3,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,VALID,QD_GT_FAVORED,UNLABELED
+paf0nyjg1Js_1,2-5s,harmful,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_TIE,UNLABELED
+paf0nyjg1Js_2,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+pgq2KPX5_SA_2,2-5s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+pgq2KPX5_SA_4,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+ptIksg9KEac_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+ptIksg9KEac_3,0-2s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+q1ivQ_2fddk_3,2-5s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+q3SEOW2m4WY_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+q3SEOW2m4WY_3,0-2s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+q3SEOW2m4WY_4,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+qeSl7YZAfs4_2,2-5s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+r2KhpX_QgXA_1,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+rE6BJ0Bo4w4_3,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+rE6BJ0Bo4w4_4,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+rPkCYq4Zjwk_1,2-5s,harmful,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_TIE,UNLABELED
+rPkCYq4Zjwk_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+riM7b5bJ9KQ_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+riM7b5bJ9KQ_3,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+rvtA7c1I4xo_1,2-5s,control,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,VALID,QD_TIE,UNLABELED
+rvtA7c1I4xo_2,2-5s,harmful,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,VALID,QD_GT_FAVORED,UNLABELED
+rvtA7c1I4xo_3,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,VALID,QD_TIE,UNLABELED
+rvtA7c1I4xo_4,2-5s,harmful,0,MODEL_SPECIFIC_FALSE_POSITIVE;DECODER_ATTRACTION,"native GT window scored above hard, while QD final center evidence favored hard; full-access top-1 decoder reference moved closer to hard peak",VALID,QD_HARD_FAVORED,UNLABELED
+sTMKled6Q1M_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+sTMKled6Q1M_2,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+sTMKled6Q1M_3,2-5s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+sVYTOURVsQ0_2,0-2s,control,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_HARD_FAVORED,UNLABELED
+sl_Pxpc7beo_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+sqsI2UyrcBQ_1,2-5s,harmful,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+szkiW0GXEOI_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+t1hj7se76wQ_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+t1hj7se76wQ_3,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+t4prXmPwthg_2,2-5s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+tIM-H2rdq8U_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+tIM-H2rdq8U_3,0-2s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+tIM-H2rdq8U_4,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+taYKM1OSTwE_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+taYKM1OSTwE_2,0-2s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+tfOIhQpYYe8_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+tfOIhQpYYe8_2,2-5s,harmful,1,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+tjCNwdOUiGc_1,2-5s,harmful,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+tjCNwdOUiGc_4,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+twFypUcdgRc_3,0-2s,control,1,SEMANTIC_COMPETITOR;DECODER_ATTRACTION,native MS-CLAP hard window scored above matched GT window; full-access top-1 decoder reference moved closer to hard peak,VALID,QD_HARD_FAVORED,UNLABELED
+txeXrpoMST4_1,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+txeXrpoMST4_4,2-5s,control,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_TIE,UNLABELED
+uJzAf4PaExI_2,0-2s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+uJzAf4PaExI_3,2-5s,harmful,1,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+uY4fe5DT1gI_1,2-5s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+uY4fe5DT1gI_2,2-5s,control,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+uhSDBwVrEdo_2,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+up2PpjTzyyc_1,2-5s,control,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_HARD_FAVORED,UNLABELED
+vfNKduToki4_1,0-2s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+vigslb0kClE_2,2-5s,harmful,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_HARD_FAVORED,UNLABELED
+vruDH_YLaPI_1,0-2s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+vruDH_YLaPI_2,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+vruDH_YLaPI_3,0-2s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+wAZrOPvul4Y_1,2-5s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+wBs02amFGXs_2,2-5s,harmful,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+wnqUgK_-fo4_1,2-5s,control,1,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_TIE,UNLABELED
+woadpeAGHUQ_1,0-2s,control,0,NEAR_GT_SCALE_LEAKAGE;DECODER_ATTRACTION,strong hard peak is adjacent/moderately near or overlaps GT±2s; full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_TIE,UNLABELED
+x5AH2gW_8S4_2,0-2s,harmful,1,UNRESOLVED,no independently supported mechanism label,VALID,QD_TIE,UNLABELED
+xUWSHYoslPQ_2,2-5s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+xbLW9Wt1Jsg_3,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+yfYNPWs7mWY_2,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,VALID,QD_TIE,UNLABELED
+yrxa6_P2I80_2,0-2s,harmful,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+z1ax0QPpd14_1,2-5s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_HARD_FAVORED,UNLABELED
+z1ax0QPpd14_3,0-2s,harmful,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+zBXoaQ1GVlc_3,2-5s,control,1,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_TIE,UNLABELED
+zoctgurhvHE_1,2-5s,control,0,NEAR_GT_SCALE_LEAKAGE,strong hard peak is adjacent/moderately near or overlaps GT±2s,BLOCKED,QD_GT_FAVORED,UNLABELED
+ztSjcZNUY7A_2,2-5s,control,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED
+zwoqJY03yHE_1,0-2s,harmful,1,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_GT_FAVORED,UNLABELED
+zwoqJY03yHE_2,2-5s,control,0,DECODER_ATTRACTION,full-access top-1 decoder reference moved closer to hard peak,BLOCKED,QD_HARD_FAVORED,UNLABELED
+zwoqJY03yHE_4,2-5s,harmful,0,UNRESOLVED,no independently supported mechanism label,BLOCKED,QD_GT_FAVORED,UNLABELED

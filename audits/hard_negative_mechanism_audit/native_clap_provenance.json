@@ -1,0 +1,34 @@
+{
+  "status": "COMPLETE_WITH_QUERY_LEVEL_BLOCKS",
+  "package": "msclap",
+  "package_version": "1.3.4",
+  "implementation": "microsoft/CLAP via msclap.models.clap.CLAP",
+  "checkpoint": "CLAP_weights_2023.pth (private artifact)",
+  "checkpoint_sha256": "2cef4016d47d00eb28d153d522f397222057f95000e9bad6b9583c631284a1e6",
+  "model_config": {
+    "audioenc_name": "HTSAT",
+    "sample_rate": 44100,
+    "window_size": 1024,
+    "hop_size": 320,
+    "mel_bins": 64,
+    "fmin": 50,
+    "fmax": 8000,
+    "classes_num": 527,
+    "out_emb": 768,
+    "transformer_embed_dim": 768,
+    "d_proj": 1024
+  },
+  "audio_api": "CLAP.audio_encoder after deterministic raw WAV crop and official torchaudio resampling to 44100 Hz",
+  "wav_decoder": "soundfile PCM decode because the server torchaudio build could not load TorchCodec; this does not change the WAV samples or native CLAP API",
+  "text_api": "CLAP.caption_encoder with official GPT-2 tokenizer, query + <|endoftext|>, max_length=77",
+  "similarity": "CLAPWrapper.compute_similarity: L2-normalized projected vectors, multiplied by model.logit_scale.exp()",
+  "native_shared_space_verified": true,
+  "load_info": {
+    "missing_keys": 0,
+    "unexpected_keys": 24
+  },
+  "raw_audio_dir": "private raw-audio directory (server-only)",
+  "n_rows": 466,
+  "n_valid": 54,
+  "n_blocked": 412
+}

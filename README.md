@@ -32,7 +32,7 @@ The two projects address adjacent stages of the same pipeline. Short-Event AMR a
 ## Evidence summary
 
 - The public archive contains an inference-only duration-mechanism audit of the unchanged official QD-DETR baseline over 1,347 queries.
-- Current results support search-space competition as a diagnostic priority and provide partial support for several other mechanisms. They do not establish a single cause, causal identification, or an architecture-independent law.
+- The coordinate-preserving counterfactual did not support a generic global-search or monotonic dose-response explanation, but it did support a matched high-saliency distractor effect. The follow-up hard-negative mechanism audit finds a decoder-reference-attraction signal, while native semantic-competitor evidence is not dominant on the available raw-audio subset.
 - The audits distinguish candidate availability and localization from candidate selection. A candidate may be absent or poorly scaled for a short event, while a usable candidate can still be ranked incorrectly.
 - Proposal-level temporal signals are used to study candidate generation and recall. They are not semantic event labels or human-validated explanations.
 
@@ -42,7 +42,7 @@ Historical archive comparisons include more than one AMR architecture and have m
 
 ## Controlled interventions
 
-Completed diagnostic pilots and specified counterfactuals are kept with their controls and status. Some recorded interventions change localization behavior across duration regimes, while the coordinate-preserving decoder-access counterfactual remains unexecuted. These records do not establish a causal mechanism or a deployable method.
+Completed diagnostic pilots and specified counterfactuals are kept with their controls and status. Some recorded interventions change localization behavior across duration regimes, while the coordinate-preserving decoder-access counterfactual supports only a matched high-saliency distractor effect. These records do not establish a causal mechanism or a deployable method.
 
 ## Relationship to Boundary Quality Calibration
 
@@ -52,15 +52,19 @@ Completed diagnostic pilots and specified counterfactuals are kept with their co
 
 - The official QD-DETR baseline has been audited in an inference-only
   duration-mechanism study on 1,347 queries.
-- The latest audit supports a search-space competition branch and reports only
-  partial support for several other mechanisms. It does not establish
-  causality or justify a new AMR method.
+- The latest audit supports a matched high-saliency distractor effect and a
+  decoder-reference-attraction component, but it does not establish a single
+  cause or justify a new AMR method.
 - The native local MS-CLAP validation is a separate gate. The full 1,347-query
-  native audit must not be started until its small validation subset passes the
-  pre-specified measurement checks.
+  native audit has not been run; the hard-negative audit uses only the raw WAVs
+  available on the server and marks the remaining native comparisons BLOCKED.
 - The coordinate-preserving decoder-access counterfactual is complete. It
   supports a matched high-saliency distractor effect, but not a general
   global-search or monotonic search-space dose-response explanation.
+- The GT-vs-hard-negative mechanism audit is complete as an inference-only
+  diagnostic. It supports a decoder-reference-attraction component, partially
+  supports near-GT geometry, and leaves repeated/unannotated occurrences
+  unresolved because the prepared human-review labels are blank.
 
 See [`docs/roadmap.md`](docs/roadmap.md) and the archived experiment cards for
 the current decision state.

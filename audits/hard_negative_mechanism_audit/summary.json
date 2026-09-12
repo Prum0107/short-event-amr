@@ -1,0 +1,139 @@
+{
+  "status": "COMPLETE_WITH_NATIVE_AND_HUMAN_COVERAGE_LIMITS",
+  "cohort": {
+    "harmful_rule": "HARD_25 center_hit10_2s < mean(RANDOM_25 replicate 0..9)",
+    "counts_by_bin": {
+      "0-2s": {
+        "harmful": 44,
+        "control": 46
+      },
+      "2-5s": {
+        "harmful": 127,
+        "control": 249
+      }
+    },
+    "p3_location_failure_counts": {
+      "0-2s": 46,
+      "2-5s": 135
+    }
+  },
+  "geometry": {
+    "near_definition": "adjacent gap <=1s or moderately near gap <=5s",
+    "expanded_gt_neighborhood": "GT interval +/-2s",
+    "counts": {
+      "0-2s_harmful": {
+        "DECODER_ATTRACTION": 26,
+        "MODEL_SPECIFIC_FALSE_POSITIVE": 2,
+        "NEAR_GT_SCALE_LEAKAGE": 12,
+        "SEMANTIC_COMPETITOR": 1,
+        "UNRESOLVED": 9
+      },
+      "0-2s_control": {
+        "DECODER_ATTRACTION": 22,
+        "MODEL_SPECIFIC_FALSE_POSITIVE": 1,
+        "NEAR_GT_SCALE_LEAKAGE": 12,
+        "SEMANTIC_COMPETITOR": 5,
+        "UNRESOLVED": 15
+      },
+      "2-5s_harmful": {
+        "DECODER_ATTRACTION": 66,
+        "MODEL_SPECIFIC_FALSE_POSITIVE": 4,
+        "NEAR_GT_SCALE_LEAKAGE": 33,
+        "SEMANTIC_COMPETITOR": 2,
+        "UNRESOLVED": 38
+      },
+      "2-5s_control": {
+        "DECODER_ATTRACTION": 80,
+        "MODEL_SPECIFIC_FALSE_POSITIVE": 5,
+        "NEAR_GT_SCALE_LEAKAGE": 104,
+        "SEMANTIC_COMPETITOR": 5,
+        "UNRESOLVED": 84
+      }
+    }
+  },
+  "native_msclap": {
+    "0-2s_harmful": {
+      "N_total": 44,
+      "N_valid": 8,
+      "N_blocked": 36,
+      "GT_better": 7,
+      "HARD_better": 1,
+      "ties": 0,
+      "median_S_GT_minus_S_HARD": 0.5436763167381287,
+      "GT_better_rate_valid": 0.875
+    },
+    "0-2s_control": {
+      "N_total": 46,
+      "N_valid": 9,
+      "N_blocked": 37,
+      "GT_better": 4,
+      "HARD_better": 5,
+      "ties": 0,
+      "median_S_GT_minus_S_HARD": -0.4266638867557049,
+      "GT_better_rate_valid": 0.4444444444444444
+    },
+    "2-5s_harmful": {
+      "N_total": 127,
+      "N_valid": 11,
+      "N_blocked": 116,
+      "GT_better": 9,
+      "HARD_better": 2,
+      "ties": 0,
+      "median_S_GT_minus_S_HARD": 1.8993163704872131,
+      "GT_better_rate_valid": 0.8181818181818182
+    },
+    "2-5s_control": {
+      "N_total": 249,
+      "N_valid": 26,
+      "N_blocked": 223,
+      "GT_better": 21,
+      "HARD_better": 5,
+      "ties": 0,
+      "median_S_GT_minus_S_HARD": 1.1430590152740479,
+      "GT_better_rate_valid": 0.8076923076923077
+    }
+  },
+  "native_provenance_file": "native_clap_provenance.json",
+  "qd_internal": {
+    "query_conditioned_memory_response": "BLOCKED",
+    "reason": "no official common QD query-memory similarity; no stored audio/text cosine",
+    "decoder_rows": 466
+  },
+  "decoder_attraction": {
+    "harmful_class_counts": {
+      "begin_hard_and_remain": 84,
+      "approach_neither": 21,
+      "begin_gt_move_hard": 23,
+      "approach_gt": 43
+    },
+    "harmful_attraction_count": 92
+  },
+  "matched_replacement": {
+    "N_rows": 171,
+    "N_valid_token_level": 171,
+    "mean_gt_rank_change_replacement_minus_random": 0.0,
+    "mean_gt_density_change_replacement_minus_random": -0.029239766081871343,
+    "N_gt_rank_worsened": 36
+  },
+  "human_review": {
+    "status": "PREPARED_UNLABELED",
+    "labels_supplied": false,
+    "manifest": "human_review/review_manifest.csv"
+  },
+  "scale_relation": {
+    "rows": 466,
+    "median_full_width_gt_ratio_harmful": 4.0,
+    "median_hard_width_gt_ratio_harmful": 4.666666666666667,
+    "separate_from_location": true
+  },
+  "hypothesis_status": {
+    "H1_SEMANTIC_HARD_NEGATIVES": "NOT_SUPPORTED",
+    "H2_MODEL_SPECIFIC_CALIBRATION_FAILURE": "PARTIALLY_SUPPORTED",
+    "H3_NEAR_GT_SCALE_LEAKAGE": "PARTIALLY_SUPPORTED",
+    "H4_REPEAT_OR_ANNOTATION_AMBIGUITY": "INCONCLUSIVE",
+    "H5_DECODER_ATTRACTION": "SUPPORTED",
+    "H6_HARD_NEGATIVE_AND_SCALE_ARE_SEPARATE": "INCONCLUSIVE",
+    "selected_branch": "DECODER_COMPETITION"
+  },
+  "taxonomy_file": "failure_taxonomy.csv"
+}
