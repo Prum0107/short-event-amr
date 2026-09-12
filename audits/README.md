@@ -30,6 +30,14 @@ positive, but concentrated in a minority of queries; reference redirection is
 not supported by the pre-specified criterion, so the scientific decision is
 `INCONCLUSIVE`. Location-rescued queries retain substantial width error.
 
+The `short_span_scale_construction_audit` directory is the follow-up frozen
+baseline attribution study for that residual scale failure. It conditions on
+final center error at most 1 s, traces width construction through both decoder
+layers, reproduces TRAIN Hungarian matching, evaluates offline matching-cost
+counterfactuals, and computes final-checkpoint width gradients. The audit
+supports several coupled descriptive factors but does not identify a single
+causal mechanism; its method-design gate is `NO`.
+
 The full native local MS-CLAP audit is not represented by fabricated output
 here. The hard-negative bundle contains only the native comparisons supported
 by the raw WAV coverage on the server; it records the exact model/API

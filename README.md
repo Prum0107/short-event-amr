@@ -35,6 +35,7 @@ The two projects address adjacent stages of the same pipeline. Short-Event AMR a
 - The public archive contains an inference-only duration-mechanism audit of the unchanged official QD-DETR baseline over 1,347 queries.
 - The coordinate-preserving counterfactual did not support a generic global-search or monotonic dose-response explanation, but it did support a matched high-saliency distractor effect. The follow-up hard-negative mechanism audit finds a decoder-reference-attraction signal, while native semantic-competitor evidence is not dominant on the available raw-audio subset.
 - The decoder hard-negative necessity audit finds a positive average removal effect in the previously harmful cohort, but the effect is concentrated in a minority of queries and the pre-specified reference-redirection test is not supported. The result remains inconclusive for causal decoder competition; rescued queries retain substantial width error.
+- The short-span scale-construction attribution audit conditions on well-centered frozen-baseline proposals. It finds weak short-duration width response, very large initial widths followed by a first-layer contraction, persistent final-layer scale error for short events, matching scale disadvantage, output-coordinate compression, and an audio-duration association. These are coupled descriptive signals, not a causal mechanism or method justification.
 - The audits distinguish candidate availability and localization from candidate selection. A candidate may be absent or poorly scaled for a short event, while a usable candidate can still be ranked incorrectly.
 - Proposal-level temporal signals are used to study candidate generation and recall. They are not semantic event labels or human-validated explanations.
 
@@ -71,6 +72,10 @@ Completed diagnostic pilots and specified counterfactuals are kept with their co
   official-path validation. It reports matched HARD-vs-RANDOM removal effects,
   decoder-layer interventions, reference trajectories, and rescued-query scale
   metrics. Its scientific decision is `INCONCLUSIVE`; no method is proposed.
+- The short-span scale-construction attribution audit is complete with same-run
+  official-path validation. It uses 855 proposals with final center error at
+  most 1 s and frozen TRAIN matching/loss calculations. The method-design gate
+  is `NO`; the selected next branch is `MULTIPLE_COUPLED_SCALE_FACTORS`.
 
 See [`docs/roadmap.md`](docs/roadmap.md) and the archived experiment cards for
 the current decision state.

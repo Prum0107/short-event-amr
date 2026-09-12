@@ -10,6 +10,7 @@ This index maps the public release to the larger private working archive.
 | `audits/search_space_counterfactual_run/` | Coordinate-preserving decoder-access intervention, validation, condition tables, and scientific decision | Complete |
 | `audits/hard_negative_mechanism_audit/` | Frozen harmful/control hard-negative cohorts, QD decoder traces, native MS-CLAP comparisons with query-level BLOCKED rows, replacement probe, and review UI | Complete with coverage limits |
 | `audits/decoder_hard_negative_necessity_audit/` | Matched HARD-vs-RANDOM decoder removal, layer-specific interventions, reference trajectories, rescued-query scale analysis, and scientific decision | Complete; causal decision inconclusive |
+| `audits/short_span_scale_construction_audit/` | Well-centered width response, query-slot priors, layerwise construction, width-head numerics, TRAIN matching, offline cost decomposition, gradients, duration conditioning, and gate documents | Complete; coupled attribution, method gate NO |
 | `audits/initial_scale_sensitivity/` | Initial-scale audit cards and compact outputs | Archived |
 | `audits/log_width_identifiability/` | Identifiability analysis and causal-pilot design | Archived |
 | `audits/refinement_geometry_pilot/` | R1 pilot configuration and summary tables | Archived |

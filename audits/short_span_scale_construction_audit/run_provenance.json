@@ -1,0 +1,17 @@
+{
+  "baseline_commit": "45ef471ee47ea75a2141d75bd9cfdb8c45dfc101",
+  "checkpoint_sha256": "9cdc18a14e906689484f1dde055b42cdcc4b77f0d850f6a0174ff9ef42063d35",
+  "test_jsonl_sha256": "044f141630d4daff984f1bfce1622071520edc27e5f7e49930571c761e6fcaa4",
+  "train_jsonl_sha256": "1b89ca493362fbd4e48346e70600ee848adec213a91c3480ccecd3c0d6594453",
+  "config_sha256": "195a41b47042bb9a6456e1268ccbcc9ef1a25862bb66508f1427085044aeaaab",
+  "seed": 20260912,
+  "device": "cuda",
+  "test_query_count": 1347,
+  "train_query_count": 2182,
+  "decoder_layers": 2,
+  "num_queries": 10,
+  "primary_center_tolerance_sec": 1.0,
+  "secondary_center_tolerance_sec": 2.0,
+  "duration_matched_width_definition": "median GT width in the same canonical GT-duration bin, expressed in the current audio's normalized coordinates",
+  "training_performed": false
+}

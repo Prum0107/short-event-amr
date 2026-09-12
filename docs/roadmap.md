@@ -20,24 +20,30 @@
   shows a positive average HARD-vs-RANDOM removal effect, but query-level
   heterogeneity and weak reference redirection leave the causal decision
   inconclusive; rescued queries retain substantial width error.
+- Short-span scale construction attribution: completed with same-run
+  official-path validation. Conditional on center error at most 1 s, the audit
+  finds weak short-duration scale response, persistent initial query-slot
+  scales, a large first-layer width contraction followed by limited final-layer
+  correction, matching scale disadvantage, coordinate compression, and a
+  residual audio-duration association. The signals remain coupled and
+  descriptive; the method-design gate is `NO`.
 
 ## Current gate
 
-P4A native local MS-CLAP evidence validation is the active measurement gate.
-It begins with a deterministic 30-query subset (10 queries in each of the
-0–2 s, 2–5 s, and ≥10 s regimes). The full 1,347-query native audit requires a
-successful validation report and explicit approval.
+The short-span scale construction attribution audit is complete. No trained
+intervention or AMR method is authorized by its result. The next branch is a
+separate experiment-card decision for the coupled scale factors; it must not
+be treated as a method design.
+
+The separately registered P4A native local MS-CLAP validation remains a
+measurement gate and has not been replaced by this scale audit; its full
+1,347-query run still requires explicit approval.
 
 ## Next diagnostic decision
 
-After the active gate is reviewed, choose exactly one branch:
-
-- If native local evidence is strong, test whether it is lost when converted
-  into the long-audio temporal representation or consumed by QD-DETR.
-- If native local evidence is weak, investigate audio representation and
-  semantic recognition limitations.
-- If evidence is strong only at short context, investigate temporal evidence
-  dilution and scale sensitivity.
+The selected next scientific branch is `MULTIPLE_COUPLED_SCALE_FACTORS`.
+Before any intervention, require a new experiment card that separates the
+remaining explanations with an explicit falsifiable comparison.
 
 No next-stage intervention or AMR method is implemented by the current archive.
 

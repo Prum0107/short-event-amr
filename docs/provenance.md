@@ -78,3 +78,24 @@ supports a high-saliency distractor effect, not a generic global-search law.
   never compared by cosine.
 - Compact outputs are under
   [`audits/hard_negative_mechanism_audit/`](../audits/hard_negative_mechanism_audit/).
+
+## Short-span scale construction attribution audit
+
+- Output bundle: [`audits/short_span_scale_construction_audit/`](../audits/short_span_scale_construction_audit/)
+- Baseline source commit: `45ef471ee47ea75a2141d75bd9cfdb8c45dfc101`
+- Checkpoint SHA-256:
+  `9cdc18a14e906689484f1dde055b42cdcc4b77f0d850f6a0174ff9ef42063d35`
+- Configuration SHA-256:
+  `195a41b47042bb9a6456e1268ccbcc9ef1a25862bb66508f1427085044aeaaab`
+- Frozen test metadata SHA-256:
+  `044f141630d4daff984f1bfce1622071520edc27e5f7e49930571c761e6fcaa4`
+- Population: 1,347 test queries, 10 decoder queries, 2 decoder layers;
+  primary well-centered cohort is defined by final center error at most 1 s.
+- Same-run validation: the official model forward and the explicit layerwise
+  trace agreed over 85 batches with maximum serialized difference `0.0`.
+- Training-side analysis: frozen official TRAIN inference with the standard
+  Hungarian matcher and final-checkpoint width-loss gradients; no optimizer
+  step or model update was performed.
+- Scientific status: several coupled descriptive factors are supported, but
+  no single causal mechanism is identified. The method-design gate is `NO`;
+  the selected next branch is `MULTIPLE_COUPLED_SCALE_FACTORS`.
