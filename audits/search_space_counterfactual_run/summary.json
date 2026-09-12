@@ -1,0 +1,154 @@
+{
+  "status": "VALID_COUNTERFACTUAL_COMPLETE",
+  "experiment": "COORDINATE_PRESERVING_GLOBAL_SEARCH_SPACE_COUNTERFACTUAL",
+  "validation": {
+    "memory_pass": true,
+    "position_pass": true,
+    "reference_pass": true,
+    "mask_pass": true,
+    "finite_pass": true,
+    "direct_forward_pass": true,
+    "direct_logits_max_abs": 0.0,
+    "direct_spans_max_abs": 0.0,
+    "memory_digest_first_batch": "54422d5d284a5d9bb5d71dcbbbb0a7547e123daccd9fcce4b15a382c66f02e19",
+    "position_digest_first_batch": "752f194a0c5b8b85d75772ad7f5c221aa1f8901a6a3bf00845cc9053ec94fd35",
+    "initial_reference_digest": "2181d338f4dc92b4514a9854f8091446447ea514a8998f16da0c78d7be316f06",
+    "batches": 14,
+    "direct_saliency_max_abs": 0.0,
+    "reference_comparison": {
+      "pass": true,
+      "reference_count": 1347,
+      "observed_count": 1347,
+      "missing_qids": [],
+      "extra_qids": [],
+      "mismatch_count": 0,
+      "mismatch_qids": [],
+      "mismatch_examples": {},
+      "max_abs_difference": 0.0
+    },
+    "invariants_pass": true,
+    "pass": true
+  },
+  "provenance": {
+    "baseline_commit": "45ef471ee47ea75a2141d75bd9cfdb8c45dfc101",
+    "checkpoint": "/root/autodl-tmp/amr_migrated/dcase2026_task6_baseline/results/best_checkpoint.pth",
+    "checkpoint_sha256": "9cdc18a14e906689484f1dde055b42cdcc4b77f0d850f6a0174ff9ef42063d35",
+    "config": "/root/autodl-tmp/amr_migrated/dcase2026_task6_baseline/config.yml",
+    "config_sha256": "195a41b47042bb9a6456e1268ccbcc9ef1a25862bb66508f1427085044aeaaab",
+    "test_jsonl": "/root/autodl-tmp/amr_migrated/dcase2026_task6_baseline/data/castella_test_release.jsonl",
+    "test_jsonl_sha256": "044f141630d4daff984f1bfce1622071520edc27e5f7e49930571c761e6fcaa4",
+    "query_count": 1347,
+    "num_queries": 10,
+    "base_seed": 20260912,
+    "clip_length": 1.0,
+    "device": "cuda",
+    "batch_size": 100,
+    "random_replicates": 10,
+    "gt_token_rule": "valid one-second token support with positive overlap with any GT interval",
+    "random_count_rule": "ceil(fraction * available non-GT tokens), capped at available count",
+    "reference_submission": "/root/autodl-tmp/amr_migrated/dcase2026_task6_baseline/results/submission.jsonl",
+    "reference_metrics": "/root/autodl-tmp/amr_migrated/dcase2026_task6_baseline/results/submission_metrics.json",
+    "reference_metrics_payload": {
+      "brief": {
+        "MR-full-R1@0.5": 23.16,
+        "MR-full-R1@0.7": 10.32,
+        "MR-full-mAP": 9.11,
+        "MR-full-mAP@0.5": 20.34,
+        "MR-full-mAP@0.75": 6.96
+      },
+      "full": {
+        "MR-mAP": {
+          "0.5": 20.34,
+          "0.55": 16.28,
+          "0.6": 14.33,
+          "0.65": 11.8,
+          "0.7": 9.28,
+          "0.75": 6.96,
+          "0.8": 5.24,
+          "0.85": 3.43,
+          "0.9": 2.15,
+          "0.95": 1.29,
+          "average": 9.11
+        },
+        "MR-R1": {
+          "0.5": 23.16,
+          "0.55": 18.41,
+          "0.6": 16.26,
+          "0.65": 12.84,
+          "0.7": 10.32,
+          "0.75": 7.8,
+          "0.8": 6.16,
+          "0.85": 4.01,
+          "0.9": 2.52,
+          "0.95": 1.48
+        }
+      }
+    }
+  },
+  "conditions": [
+    "GT_ONLY",
+    "RANDOM_25",
+    "RANDOM_50",
+    "RANDOM_100",
+    "HARD_25",
+    "HARD_50",
+    "HARD_100",
+    "FULL_ACCESS"
+  ],
+  "primary_bins": [
+    "0-2s",
+    "2-5s"
+  ],
+  "secondary_bins": [
+    "5-10s",
+    "10-20s",
+    "20s+"
+  ],
+  "hypothesis_assessment": {
+    "statuses": {
+      "H1_GLOBAL_COMPETITION_CAUSAL_COMPONENT": "NOT_SUPPORTED",
+      "H2_HARD_DISTRACTOR_EFFECT": "SUPPORTED",
+      "H3_SEARCH_SPACE_DOSE_RESPONSE": "NOT_SUPPORTED",
+      "H4_LONG_RECORDING_RESCUE": "NOT_SUPPORTED",
+      "H5_SCALE_ERROR_REMAINS_AFTER_COMPETITION_RESCUE": "SUPPORTED"
+    },
+    "decision": "HARD_NEGATIVE_COMPETITION_SUPPORTED",
+    "component_values": {
+      "H1": [
+        false,
+        false
+      ],
+      "H2": [
+        true,
+        true
+      ],
+      "H3": [
+        false,
+        false
+      ],
+      "H4": [
+        false,
+        false
+      ],
+      "H5": [
+        true,
+        true
+      ]
+    }
+  },
+  "output_files": [
+    "validation_report.md",
+    "condition_metrics_by_duration.csv",
+    "random_seed_variability.csv",
+    "random_vs_hard.csv",
+    "dose_response.csv",
+    "paired_transitions.csv",
+    "audio_duration_rescue.csv",
+    "hypothesis_assessment.md",
+    "scientific_decision.md",
+    "summary.json",
+    "query_level_counterfactual.csv"
+  ],
+  "row_count": 35022,
+  "full_access_submission_count": 1347
+}

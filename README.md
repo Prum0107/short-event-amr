@@ -20,8 +20,9 @@ results, and reproducible analysis code together.
 - The native local MS-CLAP validation is a separate gate. The full 1,347-query
   native audit must not be started until its small validation subset passes the
   pre-specified measurement checks.
-- The coordinate-preserving decoder-access counterfactual is specified but has
-  not been executed.
+- The coordinate-preserving decoder-access counterfactual is complete. It
+  supports a matched high-saliency distractor effect, but not a general
+  global-search or monotonic search-space dose-response explanation.
 
 See [`docs/roadmap.md`](docs/roadmap.md) and the archived experiment cards for
 the current decision state.

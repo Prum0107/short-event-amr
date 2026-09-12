@@ -6,8 +6,10 @@
   diagnostic work preserved in [`paper/experiment_timeline.md`](../paper/experiment_timeline.md).
 - Audio-duration mechanism decomposition: completed, inference-only, 1,347
   queries.
-- Coordinate-preserving search-space counterfactual feasibility: specified;
-  execution intentionally deferred.
+- Coordinate-preserving search-space counterfactual: completed with the
+  registered checkpoint and frozen full-audio coordinates. The result supports
+  a high-saliency distractor effect but not a general global-search or
+  monotonic dose-response explanation.
 
 ## Current gate
 
