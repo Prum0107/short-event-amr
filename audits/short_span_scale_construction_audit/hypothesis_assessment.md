@@ -5,7 +5,7 @@ Predeclared interpretation rules: slopes below 0.5 are evidence of weak short-du
 | Hypothesis | Status |
 |---|---|
 | H1_SHORT_SCALE_INSENSITIVITY | **SUPPORTED** |
-| H2_QUERY_SLOT_SCALE_PRIOR | **NOT_SUPPORTED** |
+| H2_QUERY_SLOT_SCALE_PRIOR | **SUPPORTED** |
 | H3_OUTPUT_COORDINATE_COMPRESSION | **SUPPORTED** |
 | H4_MATCHING_SCALE_BIAS | **SUPPORTED** |
 | H5_OPTIMIZATION_GEOMETRY_IMBALANCE | **SUPPORTED** |

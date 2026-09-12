@@ -316,16 +316,29 @@ def status_hypotheses(
     else:
         h1 = "NOT_SUPPORTED"
 
-    slot_model = models.get("slot_only", {}).get("R2")
-    gt_model = models.get("gt_only", {}).get("R2")
-    if slot_model is None or gt_model is None:
+    slot_values: dict[str, list[float]] = {}
+    slot_bins: dict[str, set[str]] = {}
+    for row in slots:
+        slot = str(row["query_slot"])
+        slot_values.setdefault(slot, []).append(float(row["initial_width_norm"]))
+        slot_bins.setdefault(slot, set()).add(str(row["duration_bin"]))
+    persistent_slots = [
+        values
+        for slot, values in slot_values.items()
+        if len(slot_bins.get(slot, set())) >= 3
+        and max(values) - min(values) <= 1e-6
+    ]
+    initial_prior_range = (
+        max(value[0] for value in persistent_slots) - min(value[0] for value in persistent_slots)
+        if persistent_slots
+        else 0.0
+    )
+    if len(persistent_slots) < 5:
         h2 = "INCONCLUSIVE"
-    elif slot_model > gt_model + 0.1:
+    elif initial_prior_range >= 0.2:
         h2 = "SUPPORTED"
-    elif slot_model > gt_model + 0.03:
-        h2 = "PARTIALLY_SUPPORTED"
     else:
-        h2 = "NOT_SUPPORTED"
+        h2 = "PARTIALLY_SUPPORTED"
 
     short_numeric = [value for key, value in numeric.items() if key.startswith(("0-2s_", "2-5s_"))]
     long_numeric = [value for key, value in numeric.items() if key.startswith(("5-10s_", "10-20s_", "20s+_"))]
