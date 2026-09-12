@@ -10,6 +10,45 @@ available at each stage of the baseline pipeline?** The repository therefore
 keeps diagnostic experiments, fixed experiment cards, provenance, negative
 results, and reproducible analysis code together.
 
+## Research question
+
+Why do short-duration audio moments disproportionately fail under strict temporal retrieval metrics? The archive separates candidate availability, localization, temporal scale, and ranking so each stage can be examined with fixed data and recorded provenance.
+
+## Research story
+
+```mermaid
+flowchart TD
+    A[AMR inference] --> B[Candidate generation]
+    B --> C{Usable candidate exists?}
+    C -->|No| D[Candidate availability / localization / temporal-scale failure]
+    C -->|Yes| E[Candidate selection]
+    D --> F[Short-Event AMR]
+    E --> G[Ranking failure]
+    G --> H[Boundary Quality Calibration]
+```
+
+The two projects address adjacent stages of the same pipeline. Short-Event AMR asks why a usable candidate is absent or poorly scaled; Boundary Quality Calibration asks whether the system can select a usable candidate correctly.
+
+## Evidence summary
+
+- The public archive contains an inference-only duration-mechanism audit of the unchanged official QD-DETR baseline over 1,347 queries.
+- Current results support search-space competition as a diagnostic priority and provide partial support for several other mechanisms. They do not establish a single cause, causal identification, or an architecture-independent law.
+- The audits distinguish candidate availability and localization from candidate selection. A candidate may be absent or poorly scaled for a short event, while a usable candidate can still be ranked incorrectly.
+- Proposal-level temporal signals are used to study candidate generation and recall. They are not semantic event labels or human-validated explanations.
+
+## Cross-model evidence
+
+Historical archive comparisons include more than one AMR architecture and have mixed outcomes. They bound the claim to the tested pipeline and do not establish architecture-independent generalization.
+
+## Controlled interventions
+
+Completed diagnostic pilots and specified counterfactuals are kept with their controls and status. Some recorded interventions change localization behavior across duration regimes, while the coordinate-preserving decoder-access counterfactual remains unexecuted. These records do not establish a causal mechanism or a deployable method.
+
+## Relationship to Boundary Quality Calibration
+
+[Boundary Quality Calibration](https://github.com/Prum0107/Boundary-Quality-Calibration-for-Audio-Moment-Retrieval) studies the downstream selection question: when a usable candidate already exists, can its score reflect temporal boundary quality? Short-Event AMR studies the upstream availability, localization, and temporal-scale question: why is a usable candidate missing or poorly scaled? Neither project subsumes the other.
+
+
 ## Current status
 
 - The official QD-DETR baseline has been audited in an inference-only
