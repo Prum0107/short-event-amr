@@ -15,6 +15,11 @@
   supported, near-GT geometry is partial, native semantic competition is not
   dominant on the covered WAV subset, and annotation ambiguity remains
   unresolved without human labels.
+- Decoder hard-negative necessity and layer audit: completed with matched
+  removal controls and same-run official-path validation. The harmful cohort
+  shows a positive average HARD-vs-RANDOM removal effect, but query-level
+  heterogeneity and weak reference redirection leave the causal decision
+  inconclusive; rescued queries retain substantial width error.
 
 ## Current gate
 
@@ -35,3 +40,7 @@ After the active gate is reviewed, choose exactly one branch:
   dilution and scale sensitivity.
 
 No next-stage intervention or AMR method is implemented by the current archive.
+
+The decoder-competition branch is not promoted to method design. The recorded
+next branch for the completed necessity audit is `SHORT_SPAN_SCALE_CONSTRUCTION`,
+subject to a separate experiment card and review.

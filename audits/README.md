@@ -22,6 +22,14 @@ WAVs are available. It supports a decoder-reference-attraction component but
 does not resolve repeated or incompletely annotated occurrences. Missing raw
 audio is recorded as BLOCKED.
 
+The `decoder_hard_negative_necessity_audit` directory is the completed
+inference-only removal and layer audit. It masks the pre-defined non-GT
+high-saliency hard region against matched random valid non-GT removals and
+records same-run official-path validation. The mean harmful-cohort effect is
+positive, but concentrated in a minority of queries; reference redirection is
+not supported by the pre-specified criterion, so the scientific decision is
+`INCONCLUSIVE`. Location-rescued queries retain substantial width error.
+
 The full native local MS-CLAP audit is not represented by fabricated output
 here. The hard-negative bundle contains only the native comparisons supported
 by the raw WAV coverage on the server; it records the exact model/API

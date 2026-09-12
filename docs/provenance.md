@@ -43,6 +43,24 @@ full-access reproduction passed and its matched HARD_25 condition reduced
 CenterHit relative to RANDOM_25 in the two primary duration bins; the result
 supports a high-saliency distractor effect, not a generic global-search law.
 
+## Decoder hard-negative necessity audit
+
+- Output bundle: [`audits/decoder_hard_negative_necessity_audit/`](../audits/decoder_hard_negative_necessity_audit/)
+- Cohorts: 44 harmful / 46 control in 0–2 s; 127 harmful / 249 control in 2–5 s.
+- Intervention: the exact pre-defined contiguous component of selected
+  `HARD_25` one-second tokens containing the highest-saliency selected token;
+  matched random removal uses the identical token count and broad temporal
+  distance stratum when available.
+- Decoder validation: same-run official QD-DETR forward comparison passed with
+  zero serialized difference; masks, finite tensors, and layer wrappers also
+  passed. The saved historical submission was retained for provenance but did
+  not numerically match the current CUDA/runtime path.
+- Decoder architecture: 2 decoder layers and 10 queries under the frozen
+  baseline configuration.
+- Scientific decision: `INCONCLUSIVE`; the pre-specified next branch is
+  `SHORT_SPAN_SCALE_CONSTRUCTION`. No training or method implementation was
+  performed.
+
 ## Hard-negative mechanism audit
 
 - Harmful cohort rule: HARD_25 CenterHit@10≤2s lower than the mean of ten

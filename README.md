@@ -34,6 +34,7 @@ The two projects address adjacent stages of the same pipeline. Short-Event AMR a
 
 - The public archive contains an inference-only duration-mechanism audit of the unchanged official QD-DETR baseline over 1,347 queries.
 - The coordinate-preserving counterfactual did not support a generic global-search or monotonic dose-response explanation, but it did support a matched high-saliency distractor effect. The follow-up hard-negative mechanism audit finds a decoder-reference-attraction signal, while native semantic-competitor evidence is not dominant on the available raw-audio subset.
+- The decoder hard-negative necessity audit finds a positive average removal effect in the previously harmful cohort, but the effect is concentrated in a minority of queries and the pre-specified reference-redirection test is not supported. The result remains inconclusive for causal decoder competition; rescued queries retain substantial width error.
 - The audits distinguish candidate availability and localization from candidate selection. A candidate may be absent or poorly scaled for a short event, while a usable candidate can still be ranked incorrectly.
 - Proposal-level temporal signals are used to study candidate generation and recall. They are not semantic event labels or human-validated explanations.
 
@@ -66,6 +67,10 @@ Completed diagnostic pilots and specified counterfactuals are kept with their co
   diagnostic. It supports a decoder-reference-attraction component, partially
   supports near-GT geometry, and leaves repeated/unannotated occurrences
   unresolved because the prepared human-review labels are blank.
+- The decoder hard-negative necessity and layer audit is complete with same-run
+  official-path validation. It reports matched HARD-vs-RANDOM removal effects,
+  decoder-layer interventions, reference trajectories, and rescued-query scale
+  metrics. Its scientific decision is `INCONCLUSIVE`; no method is proposed.
 
 See [`docs/roadmap.md`](docs/roadmap.md) and the archived experiment cards for
 the current decision state.

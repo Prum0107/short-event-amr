@@ -1,0 +1,12 @@
+{
+  "baseline_commit": "45ef471ee47ea75a2141d75bd9cfdb8c45dfc101",
+  "checkpoint_sha256": "9cdc18a14e906689484f1dde055b42cdcc4b77f0d850f6a0174ff9ef42063d35",
+  "test_jsonl_sha256": "044f141630d4daff984f1bfce1622071520edc27e5f7e49930571c761e6fcaa4",
+  "counterfactual_source": "previous frozen search-space counterfactual query-level output",
+  "geometry_source": "previous frozen hard-negative geometry output",
+  "seed": 20260912,
+  "random_replicates": 10,
+  "decoder_layer_count": 2,
+  "num_queries": 10,
+  "selected_qids": 466
+}
