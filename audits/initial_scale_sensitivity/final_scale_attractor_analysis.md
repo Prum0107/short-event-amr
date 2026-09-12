@@ -1,0 +1,18 @@
+# Final-scale attractor analysis
+
+Fits use proposal-level rows pooled across the fixed alpha sweep within each duration bin and initial-center subset. They are descriptive repeated-measures summaries, not confirmation of a causal attractor.
+
+| GT bin | center condition | N | slope log(final)/log(initial) | correlation | median final spread (s) | median initial spread (s) | final/initial spread ratio |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 0-2s | <= 1s | 56 | 0.519528521316219 | 0.5648703222193008 | 6.860920377075672 | 43.74143350124359 | 0.15685174965472068 |
+| 0-2s | <= 2s | 92 | 0.4588145696439979 | 0.5021840892811095 | 6.887158378958702 | 64.5676189661026 | 0.1066658255212167 |
+| 2-5s | <= 1s | 564 | 0.5576288124095014 | 0.531536426625818 | 5.364560879766941 | 56.80095702409744 | 0.09444490305843017 |
+| 2-5s | <= 2s | 1092 | 0.6064619909632358 | 0.5527758729614762 | 5.458548806607723 | 56.41936421394348 | 0.09674956254219358 |
+| 5-10s | <= 1s | 428 | 0.6466142179342698 | 0.5137697436441797 | 7.438575088977814 | 70.37720853090286 | 0.10569579618537316 |
+| 5-10s | <= 2s | 836 | 0.5472841074873017 | 0.4725893659036893 | 6.480398770421743 | 63.07391330599785 | 0.10274293175663016 |
+| 10-20s | <= 1s | 424 | 0.5865923704380657 | 0.5041162036961708 | 9.506541222333908 | 56.611620500683784 | 0.16792561559369393 |
+| 10-20s | <= 2s | 832 | 0.534146686992633 | 0.4986200482934358 | 10.628671112470329 | 67.37169921398163 | 0.15776166011060863 |
+| 20s+ | <= 1s | 372 | 0.6142318367565411 | 0.4727307377983123 | 24.433093740604818 | 96.50224173069 | 0.25318679962679574 |
+| 20s+ | <= 2s | 852 | 0.5470393771402653 | 0.4330307729159942 | 17.38699060678482 | 96.82499170303345 | 0.1795713100612649 |
+
+Interpretation guide fixed before reading results: slope near 1 indicates initialization tracking; slope clearly below 1 and a reduced final/initial spread ratio indicate suppression of initialization differences. These observations do not alone establish a true attractor.

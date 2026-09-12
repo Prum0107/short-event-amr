@@ -1,0 +1,27 @@
+experiment,system,metric,value,source_file,classification
+R31,A_QD_DETR,queries,1347,/private/research-artifact,EXACTLY_OBSERVED
+R31,A_QD_DETR,batch_size,64,/private/research-artifact,EXACTLY_OBSERVED
+R31,A_QD_DETR,runs,3,/private/research-artifact,EXACTLY_OBSERVED
+R31,A_QD_DETR,mean_latency_sec,7.111555699259043,/private/research-artifact,EXACTLY_OBSERVED
+R31,A_QD_DETR,std_latency_sec,0.11387506977221933,/private/research-artifact,EXACTLY_OBSERVED
+R31,A_QD_DETR,mean_latency_ms_per_query,5.279551372872341,/private/research-artifact,EXACTLY_OBSERVED
+R31,A_QD_DETR,peak_gpu_memory_bytes,749876224,/private/research-artifact,EXACTLY_OBSERVED
+R31,D_full_EGCG,queries,1347,/private/research-artifact,EXACTLY_OBSERVED
+R31,D_full_EGCG,batch_size,64,/private/research-artifact,EXACTLY_OBSERVED
+R31,D_full_EGCG,runs,3,/private/research-artifact,EXACTLY_OBSERVED
+R31,D_full_EGCG,mean_latency_sec,11.111598566795388,/private/research-artifact,EXACTLY_OBSERVED
+R31,D_full_EGCG,std_latency_sec,0.2251950500114613,/private/research-artifact,EXACTLY_OBSERVED
+R31,D_full_EGCG,mean_latency_ms_per_query,8.249145186930503,/private/research-artifact,EXACTLY_OBSERVED
+R31,D_full_EGCG,peak_gpu_memory_bytes,750203904,/private/research-artifact,EXACTLY_OBSERVED
+R31,QD-DETR,parameters,7123237,/private/research-artifact,EXACTLY_OBSERVED
+R31,QD-DETR,additional_parameters,0,/private/research-artifact,EXACTLY_OBSERVED
+R31,QD-DETR,additional_percentage,0.0,/private/research-artifact,EXACTLY_OBSERVED
+R31,Evidence Head,parameters,115201,/private/research-artifact,EXACTLY_OBSERVED
+R31,Evidence Head,additional_parameters,115201,/private/research-artifact,EXACTLY_OBSERVED
+R31,Evidence Head,additional_percentage,1.617256311982881,/private/research-artifact,EXACTLY_OBSERVED
+R31,Ranker,parameters,123905,/private/research-artifact,EXACTLY_OBSERVED
+R31,Ranker,additional_parameters,123905,/private/research-artifact,EXACTLY_OBSERVED
+R31,Ranker,additional_percentage,1.7394479504191704,/private/research-artifact,EXACTLY_OBSERVED
+R31,Total EGCG additional,parameters,239106,/private/research-artifact,EXACTLY_OBSERVED
+R31,Total EGCG additional,additional_parameters,239106,/private/research-artifact,EXACTLY_OBSERVED
+R31,Total EGCG additional,additional_percentage,3.3567042624020513,/private/research-artifact,EXACTLY_OBSERVED

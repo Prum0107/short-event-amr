@@ -1,0 +1,46 @@
+{
+  "status": "CLEAN_COUNTERFACTUAL_FEASIBLE",
+  "experiment": "COORDINATE_PRESERVING_SEARCH_SPACE_COUNTERFACTUAL_FEASIBILITY_AUDIT",
+  "executed": false,
+  "primary_decision": "whether decoder-only access masking can vary temporal competition while preserving original full-audio coordinates",
+  "cleanest_intervention": "A_DECODER_CROSS_ATTENTION_MEMORY_MASKING_ONLY",
+  "intervention_classification": {
+    "A_decoder_cross_attention_memory_masking_only": "VALID_COORDINATE_PRESERVING_COUNTERFACTUAL",
+    "B_post_encoder_memory_subset_or_attention_bias": "PARTIALLY_VALID",
+    "C_saliency_or_proposal_competition_only": "PARTIALLY_VALID",
+    "D_encoder_level_context_restriction": "INVALID"
+  },
+  "primary_future_metric": "paired CenterHit@10 <= 2 s relative to FULL_ACCESS",
+  "future_conditions": [
+    "GT_ONLY",
+    "RANDOM_25",
+    "RANDOM_50",
+    "RANDOM_100_FULL_ACCESS",
+    "HARD_25",
+    "HARD_50",
+    "HARD_100_FULL_ACCESS"
+  ],
+  "random_replicates": 10,
+  "interpretation_scope": "decoder-level temporal competition only; full encoder still sees all original valid positions",
+  "should_run_now": false,
+  "provenance": {
+    "baseline_commit": "45ef471ee47ea75a2141d75bd9cfdb8c45dfc101",
+    "checkpoint": "/private/research-artifact",
+    "checkpoint_sha256": "9cdc18a14e906689484f1dde055b42cdcc4b77f0d850f6a0174ff9ef42063d35",
+    "config": "/private/research-artifact",
+    "config_sha256": "195a41b47042bb9a6456e1268ccbcc9ef1a25862bb66508f1427085044aeaaab",
+    "qd_detr_sha256": "2b87c7537db88a731f3a0f485915d6a044d065b2bad6d34df8844ce7c2af0738",
+    "qd_detr_transformer_sha256": "817c6bc0a678e665b38613e181f09ae6f9d23866660a3c3be9d0f64a847f8d79",
+    "position_encoding_sha256": "0af6cfba3d498a24ced2b5a2f1ededaf4fa2fc2d998880bcc7b632b0585bd0c3",
+    "dataset_sha256": "bf08379a3473ce0cac215a34665ef548748987b48e742bb2ce2fcae0e6dc457b",
+    "attention_sha256": "42298932837314dfde6b6f400e1f3f1256f8a69696f0b58bbd47db5f3db96c6c"
+  },
+  "files": [
+    "positional_dependency_trace.md",
+    "intervention_options.md",
+    "validity_assessment.md",
+    "counterfactual_design.md",
+    "experiment_card.md",
+    "summary.json"
+  ]
+}

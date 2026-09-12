@@ -1,0 +1,44 @@
+{
+  "status": "COMPLETE",
+  "implemented": false,
+  "trained": false,
+  "modified_qd_detr": false,
+  "broad_method_search": false,
+  "question": "Is absolute log-seconds width representation a cleanly isolatable single-variable intervention in the current QD-DETR/M1 baseline?",
+  "provisional_intervention": "WIDTH_REPRESENTATION_ONLY",
+  "identifiability_class": "PARTIALLY_COUPLED",
+  "coupled_mechanisms": [
+    "representation",
+    "initialization",
+    "decoder_refinement",
+    "temporal_attention_width_conditioning",
+    "normalized_L1_gradient",
+    "audio_duration_conversion"
+  ],
+  "variant_conclusions": {
+    "A_representation_plus_original_normalized_geometry": "does not remove duration dependence; changes internal chain-rule gradients and initialization unless explicitly remapped",
+    "B_representation_plus_log_width_loss": "removes explicit duration dependence from the width log-loss but is representation-plus-loss, not representation-only",
+    "C_log_space_refinement_only": "cleanest refinement isolation when normalized initialization, final geometry, attention convention, matcher, and losses are retained"
+  },
+  "initialization_identifiability": "Exact baseline normalized initialization under u=log(w_sec/tau) requires u0(D)=log(D*sigmoid(q_w)/tau), so baseline preservation and static absolute-seconds initialization are incompatible across durations.",
+  "refinement_identifiability": "A simple additive log update is not functionally equivalent to the current additive logit update; exact equivalence requires a state-dependent induced update.",
+  "loss_identifiability": "Only Variant B removes explicit D from the width loss, and it does so by changing loss geometry; Variant A and C retain normalized-duration dependence.",
+  "revised_first_pilot": "REFINEMENT_GEOMETRY_ONLY",
+  "pilot_changed_variable": "normalized decoder width update: v_{l+1}=v_l+delta_w,l, w_tilde=exp(v_{l+1}), w_{l+1}=clip(w_tilde,eps,1-eps)",
+  "pilot_primary_metric": "paired layerwise median |log(w_l/w_GT)| and its change from initial to final, stratified by GT duration and controlled for audio duration/candidate count",
+  "pilot_falsification": "with identical initialization and unchanged final loss/geometry, no predicted reduction in short-event layerwise multiplicative width residual or final width error, or a material long-event safety regression",
+  "prior_art_risk": "high for novelty: standard regression parameterization and iterative DETR reference refinement; diagnostic use only",
+  "interpretation_boundary": "This audit identifies mechanisms and a future causal pilot. It does not establish an improvement, a novel method, or that log width is the sole cause of short-event failure.",
+  "source_worktree": "/private/research-artifact",
+  "required_outputs": [
+    "current_width_equations.md",
+    "log_width_variants.md",
+    "gradient_analysis.md",
+    "initialization_identifiability.md",
+    "refinement_identifiability.md",
+    "loss_identifiability.md",
+    "minimal_causal_interventions.md",
+    "revised_first_pilot.md",
+    "summary.json"
+  ]
+}

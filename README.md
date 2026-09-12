@@ -1,0 +1,83 @@
+# Short-Event AMR
+
+An open, continuously updated research archive for diagnosing short-event
+failures in audio moment retrieval (AMR), with DCASE 2026 Task 6 as the
+primary benchmark.
+
+The project asks a deliberately narrow question before proposing a new
+method: **where does localization fail for short events, and what evidence is
+available at each stage of the baseline pipeline?** The repository therefore
+keeps diagnostic experiments, fixed experiment cards, provenance, negative
+results, and reproducible analysis code together.
+
+## Current status
+
+- The official QD-DETR baseline has been audited in an inference-only
+  duration-mechanism study on 1,347 queries.
+- The latest audit supports a search-space competition branch and reports only
+  partial support for several other mechanisms. It does not establish
+  causality or justify a new AMR method.
+- The native local MS-CLAP validation is a separate gate. The full 1,347-query
+  native audit must not be started until its small validation subset passes the
+  pre-specified measurement checks.
+- The coordinate-preserving decoder-access counterfactual is specified but has
+  not been executed.
+
+See [`docs/roadmap.md`](docs/roadmap.md) and the archived experiment cards for
+the current decision state.
+
+## Repository map
+
+```text
+audits/       Versioned diagnostic reports, tables, summaries, and experiment cards
+baseline/     Recovered official QD-DETR baseline source without model assets
+code/         Selected analysis scripts used by the diagnostic studies
+docs/         Research protocol, provenance, roadmap, and archive index
+legacy_tsel/  Earlier TSEL/AMR implementation and paper-facing analysis code
+paper/        Manuscript drafts, experiment timeline, and compact result tables
+third_party/  Notices and upstream provenance for imported code
+```
+
+The repository intentionally does not contain raw audio, extracted feature
+tensors, model checkpoints, private server information, or runtime caches.
+Those artifacts are large, data-dependent, or not cleared for redistribution.
+Their locations, hashes, and reproduction requirements are recorded in
+[`docs/provenance.md`](docs/provenance.md) where possible.
+
+## Reproducibility principles
+
+1. Every non-trivial diagnostic starts with an experiment card.
+2. Diagnostic studies do not silently modify QD-DETR, retrain a probe, learn a
+   projection, or change the scoring rule after inspecting results.
+3. Claims are scoped to the representation and access path that was actually
+   measured. Native local MS-CLAP evidence is not treated as proof about the
+   stored temporal features consumed by QD-DETR.
+4. Full-population audits follow a successful small-scale validation gate.
+5. Large or restricted artifacts are reconstructed from their recorded
+   provenance rather than committed to Git.
+
+## Environment
+
+The code is Python-based. A CUDA environment is recommended for model-backed
+audits; documentation-only checks work on CPU. The legacy implementation
+contains its own dependency specification in
+[`legacy_tsel/requirements.txt`](legacy_tsel/requirements.txt).
+
+The current audit reports are directly readable without installing the model.
+To reproduce a model-backed run, obtain the benchmark metadata, features, and
+checkpoint under the applicable dataset and model licenses, then follow the
+run-specific instructions in the corresponding audit directory.
+
+## License and data
+
+Original project materials in this repository are released under the MIT
+License. Imported legacy materials retain the notice in
+[`legacy_tsel/LICENSE`](legacy_tsel/LICENSE). Dataset metadata, pretrained
+models, extracted features, and third-party source remain subject to their
+respective licenses; this repository does not relicense them.
+
+## Ongoing work
+
+Issues and pull requests should identify the experiment ID, the exact source
+commit/checkpoint used, whether an experiment was pre-specified, and the
+resulting claim ceiling. See [`CONTRIBUTING.md`](CONTRIBUTING.md).

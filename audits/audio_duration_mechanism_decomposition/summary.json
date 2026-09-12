@@ -1,0 +1,118 @@
+{
+  "status": "COMPLETE",
+  "experiment": "AUDIO_DURATION_MECHANISM_DECOMPOSITION",
+  "scope": "official baseline, inference-only, no training or method change",
+  "N": 1347,
+  "matched_summary": {
+    "0-2s": {
+      "matched_pairs": 34,
+      "median_long_minus_short": {
+        "r1_iou05": 0.0,
+        "r1_iou07": 0.0,
+        "oracle10_iou07": 0.0,
+        "qd_top1_center_hit_le_2s": 0.0,
+        "final_width_gt_ratio": 5.0,
+        "center_error_sec": 39.75,
+        "normalized_gt_width": -0.00449974135515086
+      },
+      "mean_long_minus_short": {
+        "r1_iou05": -0.029411764705882353,
+        "r1_iou07": 0.0,
+        "oracle10_iou07": -0.029411764705882353,
+        "qd_top1_center_hit_le_2s": -0.23529411764705882,
+        "final_width_gt_ratio": 11.058823529411764,
+        "center_error_sec": 52.6764705882353,
+        "normalized_gt_width": -0.0048180450557389
+      },
+      "matched_audio_duration_sec": {
+        "short_median": 125.5,
+        "long_median": 299.0
+      }
+    },
+    "2-5s": {
+      "matched_pairs": 159,
+      "median_long_minus_short": {
+        "r1_iou05": 0.0,
+        "r1_iou07": 0.0,
+        "oracle10_iou07": 0.0,
+        "qd_top1_center_hit_le_2s": 0.0,
+        "final_width_gt_ratio": 2.0,
+        "center_error_sec": 8.5,
+        "normalized_gt_width": -0.014166666666666664
+      },
+      "mean_long_minus_short": {
+        "r1_iou05": -0.2138364779874214,
+        "r1_iou07": -0.06918238993710692,
+        "oracle10_iou07": -0.1509433962264151,
+        "qd_top1_center_hit_le_2s": -0.20125786163522014,
+        "final_width_gt_ratio": 2.8579664570230605,
+        "center_error_sec": 25.08805031446541,
+        "normalized_gt_width": -0.01778006258064051
+      },
+      "matched_audio_duration_sec": {
+        "short_median": 113.0,
+        "long_median": 299.0
+      }
+    }
+  },
+  "evidence_correlations": {
+    "0-2s": {
+      "gt_token_fraction": -0.6423262131127299,
+      "best_gt_saliency": -0.20202494135078405,
+      "gt_saliency_percentile": -0.14638021154875086,
+      "gt_vs_false_margin": -0.2500144050705848,
+      "gt_vs_nearby_margin": -0.03746141498950487,
+      "false_peaks_above_gt": 0.3110425155368975,
+      "high_saliency_distractor_peak_count": 0.8494958225295302,
+      "gt_saliency_rank": 0.3110425155368975
+    },
+    "2-5s": {
+      "gt_token_fraction": -0.5487745358090186,
+      "best_gt_saliency": 0.02283672893504148,
+      "gt_saliency_percentile": 0.06304960776567527,
+      "gt_vs_false_margin": -0.06894948924882893,
+      "gt_vs_nearby_margin": 0.03523833173429652,
+      "false_peaks_above_gt": 0.11272600033861957,
+      "high_saliency_distractor_peak_count": 0.8484657147694565,
+      "gt_saliency_rank": 0.11272600033861957
+    }
+  },
+  "hypothesis_status": {
+    "H1_NORMALIZED_COORDINATE_EFFECT": "PARTIALLY_SUPPORTED",
+    "H2_SEARCH_SPACE_COMPETITION": "SUPPORTED",
+    "H3_INITIAL_SCALE_MEDIATION": "PARTIALLY_SUPPORTED",
+    "H4_GT_LOCAL_EVIDENCE_DEGRADATION": "PARTIALLY_SUPPORTED",
+    "H5_DATASET_COMPOSITION_CONFOUND": "NOT_SUPPORTED"
+  },
+  "dominant_next_branch": "GLOBAL_SEARCH_SPACE",
+  "context_length_probe": "BLOCKED",
+  "another_trained_causal_pilot_justified": false,
+  "provenance": {
+    "baseline_commit": "45ef471ee47ea75a2141d75bd9cfdb8c45dfc101",
+    "baseline_checkpoint": "/private/research-artifact",
+    "baseline_checkpoint_sha256": "9cdc18a14e906689484f1dde055b42cdcc4b77f0d850f6a0174ff9ef42063d35",
+    "config": "/private/research-artifact",
+    "config_sha256": "195a41b47042bb9a6456e1268ccbcc9ef1a25862bb66508f1427085044aeaaab",
+    "test_jsonl": "/private/research-artifact",
+    "test_jsonl_sha256": "044f141630d4daff984f1bfce1622071520edc27e5f7e49930571c761e6fcaa4",
+    "source_qd_detr_sha256": "2b87c7537db88a731f3a0f485915d6a044d065b2bad6d34df8844ce7c2af0738",
+    "source_position_encoding_sha256": "0af6cfba3d498a24ced2b5a2f1ededaf4fa2fc2d998880bcc7b632b0585bd0c3",
+    "source_dataset_sha256": "bf08379a3473ce0cac215a34665ef548748987b48e742bb2ce2fcae0e6dc457b",
+    "sample_count": 1347,
+    "random_seed": 20260912,
+    "clip_length_sec": 1.0,
+    "device": "cuda"
+  },
+  "files": [
+    "experiment_card.md",
+    "search_space_analysis.csv",
+    "matched_duration_analysis.csv",
+    "normalized_width_analysis.csv",
+    "initial_scale_mediation.csv",
+    "local_vs_global_evidence.csv",
+    "context_length_probe.md",
+    "hypothesis_assessment.md",
+    "next_scientific_branch.md",
+    "summary.json"
+  ]
+}

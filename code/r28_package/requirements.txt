@@ -1,0 +1,7 @@
+# EGCG v1.0 runtime record (CUDA 12.8)
+torch==2.9.0+cu128
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.16.2
+PyYAML==6.0.3
+easydict==1.13

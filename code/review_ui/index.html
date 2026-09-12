@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AMR Failure Audit — Short Moment Probe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">DCASE 2026 Task 6 · QD-DETR</p>
+      <h1>Manual failure audit</h1>
+    </div>
+    <div class="progress-block">
+      <div id="caseCounter">Case — / 30</div>
+      <div id="progressText">Reviewed: 0 / 30 · Remaining: 30</div>
+      <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <aside class="sidebar panel">
+      <div class="sidebar-heading">
+        <h2>Cases</h2>
+        <button id="refreshButton" class="small-button" type="button">Refresh</button>
+      </div>
+      <div id="filters" class="filter-row" aria-label="Case filters">
+        <button class="filter active" data-filter="all" type="button">ALL</button>
+        <button class="filter" data-filter="unreviewed" type="button">UNREVIEWED</button>
+        <button class="filter" data-filter="reviewed" type="button">REVIEWED</button>
+        <button class="filter" data-filter="0-2" type="button">0–2s</button>
+        <button class="filter" data-filter="2-5" type="button">2–5s</button>
+        <button class="filter" data-filter="iou0" type="button">IoU=0</button>
+        <button class="filter" data-filter="oracle-gap" type="button">Oracle-gap</button>
+      </div>
+      <div id="caseList" class="case-list"></div>
+    </aside>
+
+    <section class="content">
+      <div id="loading" class="panel empty-state">Loading review manifest…</div>
+      <div id="errorState" class="panel empty-state error hidden"></div>
+      <div id="caseView" class="hidden">
+        <section class="panel case-header">
+          <div class="case-header-meta">
+            <div>
+              <p class="eyebrow" id="reviewGroup">Short probe</p>
+              <h2 id="caseTitle">Case</h2>
+              <p class="qid-line"><span id="qid"></span><span id="vid"></span></p>
+            </div>
+            <div class="badges">
+              <span id="gtGroupBadge" class="badge"></span>
+              <span id="audioBadge" class="badge"></span>
+            </div>
+          </div>
+          <div class="query-box"><span>Query</span><strong id="queryText"></strong></div>
+        </section>
+
+        <section class="panel player-panel">
+          <div class="player-heading">
+            <div>
+              <h2>Audio</h2>
+              <p id="audioStatus" class="muted">Expected audio: —</p>
+            </div>
+            <div id="audioMissing" class="missing-audio hidden">AUDIO NOT FOUND</div>
+          </div>
+          <audio id="audioPlayer" controls preload="metadata"></audio>
+          <div class="button-row wrap">
+            <button id="playFull" type="button">Play full audio</button>
+            <button id="playGt" type="button">Play around GT</button>
+            <button id="playPred" type="button">Play around prediction</button>
+            <button id="jumpGt" type="button">Jump to GT</button>
+            <button id="jumpPred" type="button">Jump to prediction</button>
+            <button id="nudgeBack" type="button">−5 sec</button>
+            <button id="nudgeForward" type="button">+5 sec</button>
+          </div>
+          <div id="gtButtons" class="button-row wrap"></div>
+          <div class="timeline-wrap">
+            <div id="timeline" class="timeline" aria-label="GT and prediction timeline"></div>
+            <div class="timeline-axis"><span>0s</span><span id="durationLabel">—</span></div>
+            <div class="legend"><span><i class="legend-swatch gt"></i> GT</span><span><i class="legend-swatch top1"></i> Top-1</span><span><i class="legend-swatch other"></i> Top-2/3</span></div>
+          </div>
+        </section>
+
+        <section class="grid-two">
+          <section class="panel model-panel">
+            <div class="section-heading"><h2>Model output</h2><span id="top1Status" class="metric-chip"></span></div>
+            <div class="metric-grid">
+              <div><span>Top-1</span><strong id="top1Window">—</strong></div>
+              <div><span>Confidence</span><strong id="top1Score">—</strong></div>
+              <div><span>Top-1 best IoU</span><strong id="top1Iou">—</strong></div>
+              <div><span>Oracle10 best IoU</span><strong id="oracle10Iou">—</strong></div>
+            </div>
+            <details>
+              <summary>Show ranked Top-10 predictions</summary>
+              <div class="table-scroll"><table><thead><tr><th>Rank</th><th>Start</th><th>End</th><th>Confidence</th><th>Best IoU</th></tr></thead><tbody id="predTable"></tbody></table></div>
+            </details>
+          </section>
+          <section class="panel geometry-panel">
+            <div class="section-heading"><h2>Case geometry</h2><span id="diagnosticRegime" class="metric-chip"></span></div>
+            <div class="metric-grid">
+              <div><span>Audio duration</span><strong id="audioDuration">—</strong></div>
+              <div><span>GT windows</span><strong id="gtCount">—</strong></div>
+              <div><span>Max GT length</span><strong id="gtLength">—</strong></div>
+              <div><span>Review group</span><strong id="caseGroup">—</strong></div>
+            </div>
+            <div id="gtSummary" class="gt-summary"></div>
+          </section>
+        </section>
+
+        <section class="panel review-panel">
+          <div class="section-heading"><h2>Manual review</h2><span id="savedAt" class="muted"></span></div>
+          <p class="review-note">Human listening is authoritative. Timestamp geometry alone must not be used to infer semantic causes.</p>
+          <div class="review-grid">
+            <label>GT event audible?
+              <select data-review="gt_audible"><option value="">— Select —</option><option>YES</option><option>NO</option><option>AMBIGUOUS</option></select>
+            </label>
+            <label>Top-1 contains queried event?
+              <select data-review="top1_contains_event"><option value="">— Select —</option><option>YES</option><option>NO</option><option>AMBIGUOUS</option></select>
+            </label>
+            <label>Valid occurrence outside GT?
+              <select data-review="outside_gt_occurrence"><option value="">— Select —</option><option>YES</option><option>NO</option><option>UNCERTAIN</option></select>
+            </label>
+            <label>GT boundary reasonable?
+              <select data-review="gt_boundary_reasonable"><option value="">— Select —</option><option>YES</option><option>NO</option><option>AMBIGUOUS</option></select>
+            </label>
+            <label>Event type
+              <select data-review="event_type"><option value="">— Select —</option><option>TRANSIENT</option><option>SUSTAINED</option><option>MIXED</option><option>UNCERTAIN</option></select>
+            </label>
+            <label>Background complexity
+              <select data-review="background_complexity"><option value="">— Select —</option><option>LOW</option><option>MEDIUM</option><option>HIGH</option><option>UNCERTAIN</option></select>
+            </label>
+            <label>Provisional interpretation
+              <select data-review="provisional_interpretation"><option value="">— Select —</option><option>GROSS_RETRIEVAL_FAILURE</option><option>VALID_UNANNOTATED_OCCURRENCE</option><option>BOUNDARY_OR_METRIC_ISSUE</option><option>SHORT_TRANSIENT_LOCALIZATION</option><option>RANKING_FAILURE</option><option>QUERY_OR_GT_AMBIGUITY</option><option>OTHER</option><option>UNCERTAIN</option></select>
+            </label>
+            <label class="notes-label">Primary observation
+              <textarea data-review="primary_observation" rows="5" placeholder="Write only what was heard or directly observed…"></textarea>
+            </label>
+          </div>
+          <div class="button-row review-actions">
+            <button id="previousButton" type="button">Previous</button>
+            <button id="saveButton" class="primary" type="button">Save</button>
+            <button id="saveNextButton" class="primary" type="button">Save &amp; Next</button>
+            <button id="nextButton" type="button">Next</button>
+            <button id="exportCsvButton" class="secondary" type="button">Export CSV</button>
+            <button id="exportJsonButton" class="secondary" type="button">Export JSON</button>
+          </div>
+          <p id="saveStatus" class="save-status" role="status"></p>
+        </section>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

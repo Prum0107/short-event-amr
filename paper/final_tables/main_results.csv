@@ -1,0 +1,13 @@
+experiment,system,split,metric,value,source_file,classification
+R31,A_QD_DETR,test,MR-full-R1@0.5,38.75,/private/research-artifact,EXACTLY_OBSERVED
+R31,A_QD_DETR,test,MR-full-R1@0.7,18.93,/private/research-artifact,EXACTLY_OBSERVED
+R31,A_QD_DETR,test,MR-full-mAP,16.26,/private/research-artifact,EXACTLY_OBSERVED
+R31,B_no_evidence_ranker,test,MR-full-R1@0.5,41.13,/private/research-artifact,EXACTLY_OBSERVED
+R31,B_no_evidence_ranker,test,MR-full-R1@0.7,20.64,/private/research-artifact,EXACTLY_OBSERVED
+R31,B_no_evidence_ranker,test,MR-full-mAP,16.78,/private/research-artifact,EXACTLY_OBSERVED
+R31,C_evidence_candidate_generation,test,MR-full-R1@0.5,40.98,/private/research-artifact,EXACTLY_OBSERVED
+R31,C_evidence_candidate_generation,test,MR-full-R1@0.7,21.08,/private/research-artifact,EXACTLY_OBSERVED
+R31,C_evidence_candidate_generation,test,MR-full-mAP,20.38,/private/research-artifact,EXACTLY_OBSERVED
+R31,D_full_EGCG,test,MR-full-R1@0.5,47.51,/private/research-artifact,EXACTLY_OBSERVED
+R31,D_full_EGCG,test,MR-full-R1@0.7,26.8,/private/research-artifact,EXACTLY_OBSERVED
+R31,D_full_EGCG,test,MR-full-mAP,24.43,/private/research-artifact,EXACTLY_OBSERVED

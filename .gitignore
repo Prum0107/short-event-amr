@@ -1,0 +1,47 @@
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+*credentials*
+*secret*
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Generated experiment state
+outputs/
+results/
+logs/
+*.log
+checkpoints/
+features/
+data/raw/
+data/audio/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+*.npy
+
+# Editor and OS residue
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Build and archive residue
+dist/
+build/
+*.tar
+*.tar.gz
+*.zip

@@ -1,0 +1,53 @@
+{
+  "status": "COMPLETE",
+  "stage": "SCALE_MECHANISM_TO_METHOD_SPACE_DERIVATION",
+  "scope": "conceptual derivation only; no implementation, training, QD-DETR modification, or architecture selection",
+  "primary_decision": "select one first mechanism-isolating intervention family",
+  "mechanism_evidence": {
+    "short_gt_normalized_width_median_0_2s": 0.00469,
+    "short_gt_normalized_width_median_2_5s": 0.01521,
+    "m1_centered_0_2s_width_trajectory_sec": [43.42, 15.24, 12.39, 4.36],
+    "m1_centered_2_5s_width_trajectory_sec": [58.25, 24.06, 20.85, 5.51],
+    "m1_audio_duration_interaction_0_2s": {"short_audio_r1_iou07": 0.043, "long_audio_r1_iou07": 0.0},
+    "m1_audio_duration_interaction_2_5s": {"short_audio_r1_iou07": 0.059, "long_audio_r1_iou07": 0.021}
+  },
+  "families": [
+    "WIDTH_REPRESENTATION",
+    "INITIALIZATION_GEOMETRY",
+    "REFINEMENT_DYNAMICS",
+    "OPTIMIZATION_GEOMETRY",
+    "AUDIO_LENGTH_INVARIANCE",
+    "NON_DETR_DENSE_BOUNDARY_CONTROL"
+  ],
+  "top_3": [
+    "WIDTH_REPRESENTATION_LOG_SECONDS",
+    "MULTIPLICATIVE_LOG_REFINEMENT",
+    "INITIALIZATION_LOG_SCALE_COVERAGE"
+  ],
+  "recommended_first_intervention": "WIDTH_REPRESENTATION_ONLY",
+  "recommended_formulation": "u_w=log(w_sec/1s), w_sec=exp(u_w), w_norm=w_sec/D at the existing attention/evaluation interface",
+  "recommended_first_metric": "median abs(log(width_stage/GT_width)) and median width/GT for proposals with initial center error <=1s",
+  "recommended_falsification": "both short bins fail to reduce conditioned final log-width residual and width/GT in a matched pilot, or 20s+ R1@0.7 drops >=5pp without a short-event trajectory gain",
+  "method_design_status": "NOT_IMPLEMENTED",
+  "novelty_risk": "MODERATE_HIGH",
+  "claim_boundary": "The derivation supports a diagnosis-driven first intervention hypothesis only. It does not establish effectiveness, novelty, causality, or a final paper method.",
+  "sources_checked_for_prior_art_precheck": [
+    "https://arxiv.org/abs/2201.12329",
+    "https://arxiv.org/abs/1907.09702",
+    "https://arxiv.org/abs/2202.07925",
+    "https://arxiv.org/abs/2008.09837"
+  ],
+  "files": [
+    "mechanism_to_method_map.md",
+    "method_families.md",
+    "numerical_stress_test.csv",
+    "falsifiability_table.md",
+    "long_event_risk.md",
+    "default_prior_assessment.md",
+    "prior_art_precheck.md",
+    "method_family_scores.csv",
+    "recommended_first_intervention.md",
+    "experiment_card.md",
+    "summary.json"
+  ]
+}

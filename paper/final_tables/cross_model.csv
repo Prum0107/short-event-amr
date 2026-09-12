@@ -1,0 +1,13 @@
+experiment,system,split,metric,value,source_file,classification
+R19,UVCOM B0,test,R1@0.5,31.48,/private/research-artifact,EXACTLY_OBSERVED
+R19,UVCOM B0,test,R1@0.7,20.12,/private/research-artifact,EXACTLY_OBSERVED
+R19,UVCOM B0,test,mAP,15.9,/private/research-artifact,EXACTLY_OBSERVED
+R19,UVCOM B3 full EGCG,test,R1@0.5,31.92,/private/research-artifact,EXACTLY_OBSERVED
+R19,UVCOM B3 full EGCG,test,R1@0.7,19.97,/private/research-artifact,EXACTLY_OBSERVED
+R19,UVCOM B3 full EGCG,test,mAP,16.33,/private/research-artifact,EXACTLY_OBSERVED
+R31,QD-DETR R31 A,test,R1@0.5,38.75,/private/research-artifact,EXACTLY_OBSERVED
+R31,QD-DETR R31 A,test,R1@0.7,18.93,/private/research-artifact,EXACTLY_OBSERVED
+R31,QD-DETR R31 A,test,mAP,16.26,/private/research-artifact,EXACTLY_OBSERVED
+R31,EGCG R31 D,test,R1@0.5,47.51,/private/research-artifact,EXACTLY_OBSERVED
+R31,EGCG R31 D,test,R1@0.7,26.8,/private/research-artifact,EXACTLY_OBSERVED
+R31,EGCG R31 D,test,mAP,24.43,/private/research-artifact,EXACTLY_OBSERVED

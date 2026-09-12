@@ -1,0 +1,7 @@
+candidate,directness_to_mechanism,causal_interpretability,short_event_relevance,audio_length_invariance,long_event_safety,falsifiability,implementation_simplicity,novelty_potential,qd_detr_compatibility,priority_note
+WIDTH_REPRESENTATION_LOG_SECONDS,5,5,5,4,4,5,4,2,4,cleanest single-coordinate intervention
+INITIALIZATION_LOG_SCALE_COVERAGE,5,4,5,3,2,4,3,2,4,high-prior scale coverage with long-event allocation risk
+MULTIPLICATIVE_LOG_REFINEMENT,5,5,5,3,4,5,3,2,5,strong refinement isolation but retains normalized-clock dependence
+RELATIVE_SCALE_OPTIMIZATION,4,4,5,3,2,5,3,2,3,objective change is informative but GIoU already supplies relative signal
+AUDIO_LENGTH_INVARIANT_EFFECTIVE_CLOCK,5,3,4,5,4,4,2,3,2,broad invariance but adds a scale-estimation dependency
+DENSE_BOUNDARY_NON_DETR_CONTROL,4,4,4,4,4,4,2,1,1,strong conceptual control but changes architecture and has high prior risk

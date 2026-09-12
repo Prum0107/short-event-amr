@@ -1,0 +1,21 @@
+name: egcg_v1_runtime
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.12.3
+  - pip
+  - pip:
+      # Runtime record for the CUDA 12.8 PyTorch wheel.
+      - torch==2.9.0+cu128
+      - numpy==1.26.4
+      - pandas==2.3.3
+      - scipy==1.16.2
+      - PyYAML==6.0.3
+      - easydict==1.13
+
+# GPU: NVIDIA GeForce RTX 5090, driver 580.76.05
+# CUDA runtime reported by PyTorch: 12.8
+# If needed, install the torch wheel with:
+# pip install --index-url https://download.pytorch.org/whl/cu128 torch==2.9.0+cu128

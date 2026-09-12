@@ -1,0 +1,271 @@
+{
+  "experiment": "R1_REFINEMENT_GEOMETRY_CAUSAL_PILOT",
+  "status": "COMPLETE",
+  "decision": "REFINEMENT_NOT_SUPPORTED",
+  "implementation": "PASS",
+  "structural_isolation": "PASS",
+  "parameter_count_changed": false,
+  "parameter_count_delta": 0,
+  "primary_mechanism": {
+    "subset": "initial center error <=1s",
+    "bins": {
+      "0-2s": {
+        "baseline_median_abs_log": 1.9857886182383555,
+        "r1_median_abs_log": 1.9909990499534933,
+        "baseline_median_ratio": 7.2847900390625,
+        "r1_median_ratio": 7.361593246459961
+      },
+      "2-5s": {
+        "baseline_median_abs_log": 0.7293584641716634,
+        "r1_median_abs_log": 0.7677285916260489,
+        "baseline_median_ratio": 2.015595515569051,
+        "r1_median_ratio": 2.154928207397461
+      }
+    },
+    "metric": "median abs(log(width_l/GT_width)) and median width_l/GT_width by decoder stage"
+  },
+  "metrics": [
+    {
+      "variant": "baseline",
+      "gt_bin": "0-2s",
+      "N_queries": 90,
+      "Oracle10_IoU>=0.5": 0.03333333333333333,
+      "Oracle10_IoU>=0.7": 0.022222222222222223,
+      "Center_Hit10<=2s": 0.4,
+      "Top1_IoU=0": 0.8,
+      "R1@0.5": 0.03333333333333333,
+      "R1@0.7": 0.011111111111111112,
+      "median_top1_width_gt_ratio": 6.0
+    },
+    {
+      "variant": "baseline",
+      "gt_bin": "2-5s",
+      "N_queries": 376,
+      "Oracle10_IoU>=0.5": 0.2712765957446808,
+      "Oracle10_IoU>=0.7": 0.06914893617021277,
+      "Center_Hit10<=2s": 0.6462765957446809,
+      "Top1_IoU=0": 0.6702127659574468,
+      "R1@0.5": 0.10638297872340426,
+      "R1@0.7": 0.031914893617021274,
+      "median_top1_width_gt_ratio": 2.3333333333333335
+    },
+    {
+      "variant": "baseline",
+      "gt_bin": "5-10s",
+      "N_queries": 273,
+      "Oracle10_IoU>=0.5": 0.4725274725274725,
+      "Oracle10_IoU>=0.7": 0.21611721611721613,
+      "Center_Hit10<=2s": 0.6373626373626373,
+      "Top1_IoU=0": 0.4981684981684982,
+      "R1@0.5": 0.20146520146520147,
+      "R1@0.7": 0.08058608058608059,
+      "median_top1_width_gt_ratio": 1.2857142857142858
+    },
+    {
+      "variant": "baseline",
+      "gt_bin": "10-20s",
+      "N_queries": 251,
+      "Oracle10_IoU>=0.5": 0.6613545816733067,
+      "Oracle10_IoU>=0.7": 0.3386454183266932,
+      "Center_Hit10<=2s": 0.7211155378486056,
+      "Top1_IoU=0": 0.4063745019920319,
+      "R1@0.5": 0.30677290836653387,
+      "R1@0.7": 0.1394422310756972,
+      "median_top1_width_gt_ratio": 0.7272727272727273
+    },
+    {
+      "variant": "baseline",
+      "gt_bin": "20s+",
+      "N_queries": 357,
+      "Oracle10_IoU>=0.5": 0.6778711484593838,
+      "Oracle10_IoU>=0.7": 0.38935574229691877,
+      "Center_Hit10<=2s": 0.5098039215686274,
+      "Top1_IoU=0": 0.21568627450980393,
+      "R1@0.5": 0.35014005602240894,
+      "R1@0.7": 0.18487394957983194,
+      "median_top1_width_gt_ratio": 0.4166666666666667
+    },
+    {
+      "variant": "baseline",
+      "gt_bin": "overall",
+      "N_queries": 1347,
+      "Oracle10_IoU>=0.5": 0.4766146993318486,
+      "Oracle10_IoU>=0.7": 0.23088344469190794,
+      "Center_Hit10<=2s": 0.6057906458797327,
+      "Top1_IoU=0": 0.47438752783964366,
+      "R1@0.5": 0.22271714922049,
+      "R1@0.7": 0.10096510764662213,
+      "median_top1_width_gt_ratio": 1.0634920634920635
+    },
+    {
+      "variant": "r1",
+      "gt_bin": "0-2s",
+      "N_queries": 90,
+      "Oracle10_IoU>=0.5": 0.044444444444444446,
+      "Oracle10_IoU>=0.7": 0.0,
+      "Center_Hit10<=2s": 0.5222222222222223,
+      "Top1_IoU=0": 0.7777777777777778,
+      "R1@0.5": 0.022222222222222223,
+      "R1@0.7": 0.0,
+      "median_top1_width_gt_ratio": 8.0
+    },
+    {
+      "variant": "r1",
+      "gt_bin": "2-5s",
+      "N_queries": 376,
+      "Oracle10_IoU>=0.5": 0.23404255319148937,
+      "Oracle10_IoU>=0.7": 0.09840425531914894,
+      "Center_Hit10<=2s": 0.5930851063829787,
+      "Top1_IoU=0": 0.6276595744680851,
+      "R1@0.5": 0.10638297872340426,
+      "R1@0.7": 0.05319148936170213,
+      "median_top1_width_gt_ratio": 3.0
+    },
+    {
+      "variant": "r1",
+      "gt_bin": "5-10s",
+      "N_queries": 273,
+      "Oracle10_IoU>=0.5": 0.5238095238095238,
+      "Oracle10_IoU>=0.7": 0.2454212454212454,
+      "Center_Hit10<=2s": 0.6593406593406593,
+      "Top1_IoU=0": 0.5201465201465202,
+      "R1@0.5": 0.19413919413919414,
+      "R1@0.7": 0.0695970695970696,
+      "median_top1_width_gt_ratio": 1.625
+    },
+    {
+      "variant": "r1",
+      "gt_bin": "10-20s",
+      "N_queries": 251,
+      "Oracle10_IoU>=0.5": 0.6693227091633466,
+      "Oracle10_IoU>=0.7": 0.350597609561753,
+      "Center_Hit10<=2s": 0.6892430278884463,
+      "Top1_IoU=0": 0.350597609561753,
+      "R1@0.5": 0.32669322709163345,
+      "R1@0.7": 0.1553784860557769,
+      "median_top1_width_gt_ratio": 1.0
+    },
+    {
+      "variant": "r1",
+      "gt_bin": "20s+",
+      "N_queries": 357,
+      "Oracle10_IoU>=0.5": 0.6722689075630253,
+      "Oracle10_IoU>=0.7": 0.4425770308123249,
+      "Center_Hit10<=2s": 0.5798319327731093,
+      "Top1_IoU=0": 0.18487394957983194,
+      "R1@0.5": 0.3557422969187675,
+      "R1@0.7": 0.17366946778711484,
+      "median_top1_width_gt_ratio": 0.475
+    },
+    {
+      "variant": "r1",
+      "gt_bin": "overall",
+      "N_queries": 1347,
+      "Oracle10_IoU>=0.5": 0.4773570898292502,
+      "Oracle10_IoU>=0.7": 0.25983667409057165,
+      "Center_Hit10<=2s": 0.6161841128433556,
+      "Top1_IoU=0": 0.44691907943578324,
+      "R1@0.5": 0.2256867112100965,
+      "R1@0.7": 0.10393466963622866,
+      "median_top1_width_gt_ratio": 1.3333333333333333
+    }
+  ],
+  "audio_duration_dependence": [
+    {
+      "variant": "baseline",
+      "gt_bin": "0-2s",
+      "N_audio_duration_strata": 10,
+      "audio_duration_slope_abs_log_ratio_per_sec": 0.007602974576967448,
+      "audio_duration_slope_abs_log_ratio_per_100sec": 0.7602974576967448
+    },
+    {
+      "variant": "baseline",
+      "gt_bin": "2-5s",
+      "N_audio_duration_strata": 55,
+      "audio_duration_slope_abs_log_ratio_per_sec": 0.003389609589603634,
+      "audio_duration_slope_abs_log_ratio_per_100sec": 0.33896095896036343
+    },
+    {
+      "variant": "baseline",
+      "gt_bin": "5-10s",
+      "N_audio_duration_strata": 53,
+      "audio_duration_slope_abs_log_ratio_per_sec": -0.0015448830885628861,
+      "audio_duration_slope_abs_log_ratio_per_100sec": -0.15448830885628861
+    },
+    {
+      "variant": "baseline",
+      "gt_bin": "10-20s",
+      "N_audio_duration_strata": 46,
+      "audio_duration_slope_abs_log_ratio_per_sec": -0.00262877600962595,
+      "audio_duration_slope_abs_log_ratio_per_100sec": -0.262877600962595
+    },
+    {
+      "variant": "baseline",
+      "gt_bin": "20s+",
+      "N_audio_duration_strata": 37,
+      "audio_duration_slope_abs_log_ratio_per_sec": -0.004555165887029233,
+      "audio_duration_slope_abs_log_ratio_per_100sec": -0.4555165887029233
+    },
+    {
+      "variant": "r1",
+      "gt_bin": "0-2s",
+      "N_audio_duration_strata": 10,
+      "audio_duration_slope_abs_log_ratio_per_sec": 0.0071857607400730855,
+      "audio_duration_slope_abs_log_ratio_per_100sec": 0.7185760740073086
+    },
+    {
+      "variant": "r1",
+      "gt_bin": "2-5s",
+      "N_audio_duration_strata": 54,
+      "audio_duration_slope_abs_log_ratio_per_sec": 0.004419934670853561,
+      "audio_duration_slope_abs_log_ratio_per_100sec": 0.44199346708535614
+    },
+    {
+      "variant": "r1",
+      "gt_bin": "5-10s",
+      "N_audio_duration_strata": 58,
+      "audio_duration_slope_abs_log_ratio_per_sec": 0.00021210141338860259,
+      "audio_duration_slope_abs_log_ratio_per_100sec": 0.021210141338860258
+    },
+    {
+      "variant": "r1",
+      "gt_bin": "10-20s",
+      "N_audio_duration_strata": 44,
+      "audio_duration_slope_abs_log_ratio_per_sec": -0.0037865329167327474,
+      "audio_duration_slope_abs_log_ratio_per_100sec": -0.37865329167327477
+    },
+    {
+      "variant": "r1",
+      "gt_bin": "20s+",
+      "N_audio_duration_strata": 37,
+      "audio_duration_slope_abs_log_ratio_per_sec": -0.003945677361353832,
+      "audio_duration_slope_abs_log_ratio_per_100sec": -0.3945677361353832
+    }
+  ],
+  "long_event_r1_at_0_7_delta": -0.011204481792717103,
+  "long_event_safety_failure": false,
+  "train_results": {
+    "baseline": {
+      "best_epoch": 185,
+      "best_val_R1@0.7": 16.48
+    },
+    "r1": {
+      "best_epoch": 151,
+      "best_val_R1@0.7": 14.49
+    }
+  },
+  "provenance": {
+    "baseline_commit": "45ef471ee47ea75a2141d75bd9cfdb8c45dfc101",
+    "source_worktree": "/private/research-artifact",
+    "base_config": "/private/research-artifact",
+    "test_data_sha256": "044f141630d4daff984f1bfce1622071520edc27e5f7e49930571c761e6fcaa4",
+    "feature_audio_dir": "/private/research-artifact",
+    "feature_text_dir": "/private/research-artifact",
+    "seed": 2023,
+    "training_from_scratch": true,
+    "test_queries": 1347,
+    "analysis_only_recovery": true
+  },
+  "claim_boundary": "Exploratory evidence for refinement geometry as one possible causal component in this matched baseline; not a novel-method or generalization claim.",
+  "next_scale_mechanism_authorized": false
+}
