@@ -18,13 +18,14 @@ Why do short-duration audio moments disproportionately fail under strict tempora
 
 ```mermaid
 flowchart TD
-    A[AMR inference] --> B[Candidate generation]
-    B --> C{Usable candidate exists?}
-    C -->|No| D[Candidate availability / localization / temporal-scale failure]
-    C -->|Yes| E[Candidate selection]
-    D --> F[Short-Event AMR]
-    E --> G[Ranking failure]
-    G --> H[Boundary Quality Calibration]
+    A[Long audio + text query] --> B[AMR inference]
+    B --> C[Candidate generation]
+    C --> D{Usable candidate exists?}
+    D -->|No| E[Candidate availability / localization / temporal-scale failure]
+    D -->|Yes| F[Candidate selection]
+    E --> G[Short-Event AMR]
+    F --> H[Ranking failure]
+    H --> I[Boundary Quality Calibration]
 ```
 
 The two projects address adjacent stages of the same pipeline. Short-Event AMR asks why a usable candidate is absent or poorly scaled; Boundary Quality Calibration asks whether the system can select a usable candidate correctly.
